@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # -*- coding = utf-8 -*-
 import json
+from prettytable import PrettyTable
+
 class QuoteType:
     def __init__(self, json):
         values = json['values']
@@ -96,8 +98,16 @@ class QuoteType:
 
         return switcher.get(code, "-");
 
+    def print(self):
+        quote = PrettyTable()
+        quote.field_names = ["FIELD", "VALUE"]
+        for attribute, value in self.__dict__.items():
+            #print(attribute, value)
+            quote.add_row([ attribute, value ])
+        print(quote)
+
 if __name__ == "__main__":
-    with open('example/values.json', "r") as values_file:
+    with open('example/quote.json', "r") as values_file:
         values_json = json.load(values_file)
     qt = QuoteType(values_json)
-    print(json.dumps(qt.__dict__))
+    qt.print()
