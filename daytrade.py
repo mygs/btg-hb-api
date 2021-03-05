@@ -6,6 +6,7 @@ import _thread as thread
 import time
 import ssl
 from QuoteType import *
+from AggregatedBookType import *
 
 SERVER_HOME = os.path.dirname(os.path.abspath(__file__))
 ###### reading configuration
@@ -19,12 +20,11 @@ def on_message(ws, raw_message):
     data =  json.loads(raw_message)
     if 'type' in data:
         if data['type'] == 'QuoteType':
-            print("IS QUOTE")
             quote = QuoteType(data)
             print(json.dumps(quote.__dict__))
         if data['type'] == 'AggregatedBookType':
-            print("IS BOOK")
-            print(data)
+            book = AggregatedBookType(data)
+            book.print()
     #print(data)
 
 def on_error(ws, error):
