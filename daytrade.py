@@ -7,7 +7,7 @@ import time
 import ssl
 from QuoteType import *
 from AggregatedBookType import *
-from BookRequest import *
+from AggregatedBookRequest import *
 from QuoteRequest import *
 
 SERVER_HOME = os.path.dirname(os.path.abspath(__file__))
@@ -15,8 +15,8 @@ SERVER_HOME = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(SERVER_HOME, 'config.json'), "r") as config_json_file:
     cfg = json.load(config_json_file)
 
-symbol = "bpac11" # petr4, bpac11
-market = "XBSP" # XBSP|XBMF
+symbol = "petr4" # petr4, bpac11
+market = "XBSP" # XBSP := Bovespa, XBMF := BM&F || https://www.onixs.biz/fix-dictionary/4.4/app_6_c.html
 
 def on_message(ws, raw_message):
     data =  json.loads(raw_message)
@@ -27,6 +27,8 @@ def on_message(ws, raw_message):
         if data['type'] == 'AggregatedBookType':
             book = AggregatedBookType(data)
             book.print()
+        if data['type'] == 'BookSnapshotType':
+            print(data)
     #print(data)
 
 def on_error(ws, error):
@@ -36,8 +38,8 @@ def on_close(ws):
     print("### closed ###")
 
 req = []
-req.append(BookRequest(cfg["TKNWF"], "quotes", symbol).to_json())
-req.append(QuoteRequest(cfg["TKNWF"], "quotes", symbol).to_json())
+req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
+req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"dailyOrder","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True}})

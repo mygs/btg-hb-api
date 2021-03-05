@@ -3,16 +3,14 @@
 from Request import *
 import json
 
-class BookRequest(Request):
+class AggregatedBookRequest(Request):
     subsbribetype = "1"
     delay = "100"
-    filter = '20'
     def __init__(self, token, symbol):
-        Request.__init__(self, token, "quotes", "book")
+        Request.__init__(self, token, "quotes", "aggregatedBook")
         self.parameterGet = symbol
         self.parameters = {"subsbribetype": self.subsbribetype,
-                            "filter": self.filter,
                             "delay": self.delay}
 if __name__ == "__main__":
-    br = BookRequest("test_token", "test_symbol")
+    br = AggregatedBookRequest("test_token", "test_symbol")
     print(br.to_json())

@@ -26,3 +26,8 @@
 |   1   |  500.0  | 98.27 | 98.68 |  200.0  |   2   |
 |   3   |  300.0  | 98.25 |  98.7 |  900.0  |   4   |
 |   1   |  100.0  | 98.24 | 98.75 |  400.0  |   4   |
+
+
+### 3rd party Reference
+
+http://files.cedrofinances.com.br/Downloads/Manuais/Manual_Integracao_e_Funcionalidade_WebFeeder.pdf
