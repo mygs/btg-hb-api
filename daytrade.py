@@ -7,6 +7,8 @@ import time
 import ssl
 from QuoteType import *
 from AggregatedBookType import *
+from BookRequest import *
+from QuoteRequest import *
 
 SERVER_HOME = os.path.dirname(os.path.abspath(__file__))
 ###### reading configuration
@@ -34,12 +36,12 @@ def on_close(ws):
     print("### closed ###")
 
 req = []
-req.append({"token":cfg["TKNWF"],"module":"quotes","service":"aggregatedBook","parameterGet":symbol,"parameters":{"subsbribetype":"1","delay":"100"}})
-req.append({"token":cfg["TKNWF"],"module":"quotes","service":"quote","parameterGet":symbol,"parameters":{"subsbribetype":"1","filter":"0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,36,37,38,39,40,41,42,43,44,45,46,47,48,49,54,57,58,59,64,65,66,67,68,69,70,71,72,82,83,84,85,86,88,89,94,95,97,98,99,100,101,102,103,104,105,107,108,110,112,116,118,121,123,134,135,10097,10098,10099","delay":"100"}})
-req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
-req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})
-req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"dailyOrder","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True}})
-req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"cancelOrderReject","parameters":{"account":cfg["ACCOUNT"],"dispatch":False,"market":market}})
+req.append(BookRequest(cfg["TKNWF"], "quotes", symbol).to_json())
+req.append(QuoteRequest(cfg["TKNWF"], "quotes", symbol).to_json())
+#req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
+#req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})
+#req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"dailyOrder","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True}})
+#req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"cancelOrderReject","parameters":{"account":cfg["ACCOUNT"],"dispatch":False,"market":market}})
 
 def on_open(ws):
     def run(*args):
