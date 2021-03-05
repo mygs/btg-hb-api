@@ -6,7 +6,7 @@ import json
 class BookRequest(Request):
     subsbribetype = "1"
     delay = "100"
-    filter = '20'
+    filter = '50'
     def __init__(self, token, symbol):
         Request.__init__(self, token, "quotes", "book")
         self.parameterGet = symbol
