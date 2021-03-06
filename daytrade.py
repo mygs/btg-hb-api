@@ -9,6 +9,7 @@ from QuoteType import *
 from AggregatedBookType import *
 from BookType import *
 from AggregatedBookRequest import *
+from AggregatedBookAnalytics import *
 from QuoteRequest import *
 from BookRequest import *
 
@@ -29,6 +30,8 @@ def on_message(ws, raw_message):
         if data['type'] == 'AggregatedBookType':
             book = AggregatedBookType(data)
             book.print()
+            analytics = AggregatedBookAnalytics(book)
+            analytics.print()
         if data['type'] == 'BookSnapshotType':
             book = BookType(data)
             book.print()
@@ -41,9 +44,9 @@ def on_close(ws):
     print("### closed ###")
 
 req = []
-#req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
+req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
 #req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
-req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
+#req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"dailyOrder","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True}})
