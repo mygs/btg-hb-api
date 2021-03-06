@@ -8,8 +8,8 @@ class BookType:
     def __init__(self, json):
         self.symbol = json['parameter']
         self.type = json['type']
-        self.bid = json['book']['B']
-        self.ask = json['book']['A']
+        self.bid = json['book']['A']
+        self.ask = json['book']['B']
 
     def print(self):
         book = PrettyTable()

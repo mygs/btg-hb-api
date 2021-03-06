@@ -8,8 +8,8 @@ class AggregatedBookType:
     def __init__(self, message):
         self.symbol = message['parameter']
         self.type = message['type']
-        self.bid = message['book']['A'] #?
-        self.ask = message['book']['B'] #?
+        self.bid = message['book']['A']
+        self.ask = message['book']['B']
 
     def print(self):
         book = PrettyTable()

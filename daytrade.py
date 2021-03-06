@@ -8,10 +8,14 @@ import ssl
 from QuoteType import *
 from AggregatedBookType import *
 from BookType import *
+from MarketRankingType import *
+from ResumeMarketListRequest import *
 from AggregatedBookRequest import *
 from AggregatedBookAnalytics import *
 from QuoteRequest import *
 from BookRequest import *
+from MarketRankingRequest import *
+
 
 SERVER_HOME = os.path.dirname(os.path.abspath(__file__))
 ###### reading configuration
@@ -35,7 +39,11 @@ def on_message(ws, raw_message):
         if data['type'] == 'BookSnapshotType':
             book = BookType(data)
             book.print()
-    #print(data)
+        if data['type'] == 'MarketRankingType':
+            mrt = MarketRankingType(data)
+            mrt.print()
+        if data['type'] == 'ResumeMarketType':
+            print(data)
 
 def on_error(ws, error):
     print(error)
@@ -44,7 +52,12 @@ def on_close(ws):
     print("### closed ###")
 
 req = []
-req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
+#req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
+#req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
+#req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
+req.append(ResumeMarketListRequest(cfg["TKNWF"], "fallList").to_json())
+#req.append(ResumeMarketListRequest(cfg["TKNWF"], "highVolumeList").to_json())
+#req.append(ResumeMarketListRequest(cfg["TKNWF"], "fallVolumeList").to_json())
 #req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
 #req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
