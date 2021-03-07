@@ -1,8 +1,19 @@
 #!/usr/bin/python3
 # -*- coding = utf-8 -*-
 import json
+from Request import *
 from prettytable import PrettyTable
 
+class QuoteTradeRequest(Request):
+    subsbribetype = "1"
+    delay = "100"
+    quantidade = '15'
+    def __init__(self, token, symbol):
+        Request.__init__(self, token, "quotes", "quoteTrade")
+        self.parameterGet = symbol
+        self.parameters = {"subsbribetype": self.subsbribetype,
+                            "quantidade": self.quantidade,
+                            "delay": self.delay}
 class QuoteTradeType:
 
     def __init__(self, message):
@@ -29,6 +40,8 @@ class QuoteTradeType:
         print(trades)
 
 if __name__ == "__main__":
+    qtr = QuoteTradeRequest("test_token", "test_symbol")
+    print(qtr.to_json())
     with open('example/quoteTrade.json', "r") as values_file:
         values_json = json.load(values_file)
     qtt = QuoteTradeType(values_json)

@@ -1,7 +1,15 @@
 #!/usr/bin/python3
-# -*- coding = utf-8 -*-
+# -*- coding: utf-8 -*-
 import json
 from prettytable import PrettyTable
+from Request import *
+
+class ResumeMarketListRequest(Request):
+    subsbribetype = "1"
+    def __init__(self, token, service):
+        Request.__init__(self, token, "quotes", service)
+        self.parameterGet = "bovespa"
+        self.parameters = {"subsbribetype": self.subsbribetype}
 
 class ResumeMarketType:
 
@@ -34,6 +42,8 @@ class ResumeMarketType:
         print(list)
 
 if __name__ == "__main__":
+    srmlr = ResumeMarketListRequest("test_token", "test_service")
+    print(srmlr.to_json())
     with open('example/resumemarketlist.json', "r") as values_file:
         values_json = json.load(values_file)
     rmt = ResumeMarketType(values_json)

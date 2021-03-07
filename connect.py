@@ -1,29 +1,18 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import os
-import websocket, json
+import os, json, websocket, time, ssl
 import _thread as thread
-import time
-import ssl
-from QuoteType import *
-from AggregatedBookType import *
-from BookType import *
-from MarketRankingType import *
-from ResumeMarketListRequest import *
-from AggregatedBookRequest import *
+from AggregatedBook import AggregatedBookRequest, AggregatedBookType
 from AggregatedBookAnalytics import *
-from QuoteRequest import *
-from BookRequest import *
-from MarketRankingRequest import *
-from QuoteTradeRequest import *
-from ResumeMarketType import *
-from QuoteTradeType import *
+from Book import BookRequest, BookType
+from MarketRanking import MarketRankingRequest, MarketRankingType
+from Quote import QuoteRequest, QuoteType
+from QuoteTrade import QuoteTradeRequest, QuoteTradeType
+from ResumeMarket import ResumeMarketListRequest, ResumeMarketType
 
-
-
-SERVER_HOME = os.path.dirname(os.path.abspath(__file__))
 ###### reading configuration
-with open(os.path.join(SERVER_HOME, 'config.json'), "r") as config_json_file:
+HOME = os.path.dirname(os.path.abspath(__file__))
+with open('config.json', "r") as config_json_file:
     cfg = json.load(config_json_file)
 
 symbol = "petr4" # petr4, bpac11
@@ -63,8 +52,8 @@ req = []
 #req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
 #req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
 #req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
-req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
-#req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
+#req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
+req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
 #req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})

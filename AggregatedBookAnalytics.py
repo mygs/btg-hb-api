@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding = utf-8 -*-
-from AggregatedBookType import *
+from AggregatedBook import AggregatedBookType
 from prettytable import PrettyTable
 
 class AggregatedBookAnalytics:

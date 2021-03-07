@@ -1,8 +1,17 @@
 #!/usr/bin/python3
 # -*- coding = utf-8 -*-
 import json
+from Request import *
 from prettytable import PrettyTable
 
+class AggregatedBookRequest(Request):
+    subsbribetype = "1"
+    delay = "100"
+    def __init__(self, token, symbol):
+        Request.__init__(self, token, "quotes", "aggregatedBook")
+        self.parameterGet = symbol
+        self.parameters = {"subsbribetype": self.subsbribetype,
+                            "delay": self.delay}
 class AggregatedBookType:
 
     def __init__(self, message):
@@ -31,6 +40,8 @@ class AggregatedBookType:
         print(book)
 
 if __name__ == "__main__":
+    br = AggregatedBookRequest("test_token", "test_symbol")
+    print(br.to_json())
     with open('example/aggregatedbook.json', "r") as values_file:
         values_json = json.load(values_file)
     abt = AggregatedBookType(values_json)
