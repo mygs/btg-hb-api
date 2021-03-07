@@ -16,6 +16,10 @@ from QuoteRequest import *
 from BookRequest import *
 from MarketRankingRequest import *
 from QuoteTradeRequest import *
+from ResumeMarketType import *
+from QuoteTradeType import *
+
+
 
 SERVER_HOME = os.path.dirname(os.path.abspath(__file__))
 ###### reading configuration
@@ -43,7 +47,11 @@ def on_message(ws, raw_message):
             mrt = MarketRankingType(data)
             mrt.print()
         if data['type'] == 'ResumeMarketType':
-            print(data)
+            rmt = ResumeMarketType(data)
+            rmt.print()
+        if data['type'] == 'BusinessBookType':
+            qtt = QuoteTradeType(data)
+            qtt.print()
 
 def on_error(ws, error):
     print(error)
@@ -52,10 +60,10 @@ def on_close(ws):
     print("### closed ###")
 
 req = []
-req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
-req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
+#req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
+#req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
 #req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
-#req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
+req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
 #req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
 #req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
