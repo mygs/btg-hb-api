@@ -15,7 +15,7 @@ from AggregatedBookAnalytics import *
 from QuoteRequest import *
 from BookRequest import *
 from MarketRankingRequest import *
-
+from QuoteTradeRequest import *
 
 SERVER_HOME = os.path.dirname(os.path.abspath(__file__))
 ###### reading configuration
@@ -53,6 +53,7 @@ def on_close(ws):
 
 req = []
 req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
+req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
 #req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
 #req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
 #req.append(BookRequest(cfg["TKNWF"], symbol).to_json())

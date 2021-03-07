@@ -31,3 +31,7 @@
 ### 3rd party Reference
 
 http://files.cedrofinances.com.br/Downloads/Manuais/Manual_Integracao_e_Funcionalidade_WebFeeder.pdf
+
+http://www.pbcsf.tsinghua.edu.cn/research/caoquanwei/paper/10.The%20Information%20Content%20of%20an%20Open%20Limit%20Order%20Book.pdf
+
+https://tspace.library.utoronto.ca/bitstream/1807/70567/3/Rubisov_Anton_201511_MAS_thesis.pdf
