@@ -58,6 +58,23 @@ replace "?????" accordingly:
 |  1500 | 22.39 |  40 | Mar 7, 2021 6:11:23 PM | 1099 |    I     |
 
 
+## AggregatedBookAnalytics
+
+|       ANALYTIC       | RESULT |
+|:--------------------:|:------:|
+|   Bid/Ask Spread $   | 0.040  |
+|      Book depth      |   15   |
+|    Book Imbalance    | -0.016 |
+|    Balance Ask %     | 0.508  |
+|    Weighted Ask $    | 22.736 |
+|      Best Ask $      | 22.42  |
+|   Weighted Price $   | 22.474 |
+| Weighted Mid Price $ | 22.400 |
+|    Middle Price $    | 22.400 |
+|      Best Bid $      | 22.38  |
+|    Weighted Bid $    | 22.209 |
+|    Balance Bid %     | 0.492  |
+
 ##  Reference
 
 * [Manual](http://files.cedrofinances.com.br/Downloads/Manuais/Manual_Integracao_e_Funcionalidade_WebFeeder.pdf) - Manual de Integração e Funcionalidade
