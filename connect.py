@@ -35,21 +35,21 @@ def on_message(ws, raw_message):
         if data['type'] == 'QuoteType':
             quote = QuoteType(data)
             quote.print()
-        if data['type'] == 'AggregatedBookType':
+        elif data['type'] == 'AggregatedBookType':
             book = AggregatedBookType(data)
             book.print()
             analytics = AggregatedBookAnalytics(book)
             analytics.print()
-        if data['type'] == 'BookSnapshotType':
+        elif data['type'] == 'BookSnapshotType':
             book = BookType(data)
             book.print()
-        if data['type'] == 'MarketRankingType':
+        elif data['type'] == 'MarketRankingType':
             mrt = MarketRankingType(data)
             mrt.print()
-        if data['type'] == 'ResumeMarketType':
+        elif data['type'] == 'ResumeMarketType':
             rmt = ResumeMarketType(data)
             rmt.print()
-        if data['type'] == 'BusinessBookType':
+        elif data['type'] == 'BusinessBookType':
             qtt = QuoteTradeType(data)
             qtt.print()
 
