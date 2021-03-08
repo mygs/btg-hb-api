@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 # -*- coding = utf-8 -*-
-import json
+import json, time
 from AggregatedBook import AggregatedBookType
 from prettytable import PrettyTable
 
 class AggregatedBookAnalytics:
     def __init__(self, book):
+        self.timestamp = int(time.time())
         self.spread = 0
         self.book_depth = 0
         self.book_imbalance = 0
