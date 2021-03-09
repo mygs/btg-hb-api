@@ -21,6 +21,7 @@ BUFFER_SIZE = 10*60*10  # ~10 min
 analytic_buffer=RingBuffer(BUFFER_SIZE)
 
 symbol = "petr4" # petr4, bpac11
+symbols = ["vale3","petr4", "bpac11", "ceab3", "abev3", "b3sa3", "embr3", "ggbr4", "tots3"]
 market = "XBSP" # XBSP := Bovespa, XBMF := BM&F || https://www.onixs.biz/fix-dictionary/4.4/app_6_c.html
 
 def on_message(ws, raw_message):
@@ -60,16 +61,17 @@ def on_close(ws):
     print("### closed ###")
 
 req = []
-req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
-#req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
-#req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
-#req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
-#req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
-req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
-#req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
-#req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})
-#req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"dailyOrder","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True}})
-#req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"cancelOrderReject","parameters":{"account":cfg["ACCOUNT"],"dispatch":False,"market":market}})
+for symbol in symbols:
+    req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
+    #req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
+    #req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
+    #req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
+    #req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
+    req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
+    #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
+    #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})
+    #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"dailyOrder","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True}})
+    #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"cancelOrderReject","parameters":{"account":cfg["ACCOUNT"],"dispatch":False,"market":market}})
 
 def on_open(ws):
     def run(*args):
