@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 # -*- coding = utf-8 -*-
-import json, time
+import json, time, csv
 from AggregatedBook import AggregatedBookType
 from prettytable import PrettyTable
 
 class AggregatedBookAnalytics:
-    def __init__(self, book):
+
+
+    def __init__(self, book = None):
         self.timestamp = int(time.time())
         self.spread = 0
         self.book_depth = 0
@@ -19,7 +21,8 @@ class AggregatedBookAnalytics:
         self.weighted_mid_price = 0
         self.weighted_price = 0
         self.middle_price = 0
-        self.calc(book)
+        if book is not None:
+            self.calc(book)
 
     def calc(self, book):
         self.book_depth = len(book.bid)
@@ -72,15 +75,45 @@ class AggregatedBookAnalytics:
         summary.add_row([ "Best Bid $", self.best_bid_price])
         summary.add_row([ "Weighted Bid $", '{0:.3f}'.format(self.weighted_bid_price)])
         summary.add_row([ "Balance Bid %", '{0:.3f}'.format(self.pressure_bid)])
-
-
         print(summary)
 
 
-if __name__ == "__main__":
-    with open('example/aggregatedbook.json', "r") as values_file:
-        values_json = json.load(values_file)
-    abt = AggregatedBookType(values_json)
-    analytics = AggregatedBookAnalytics(abt)
+    #{'timestamp': 1615212000, 'spread': 0.06999999999999318,
+    # 'book_depth': 15, 'book_imbalance': -0.13826360774307303,
+    # 'best_bid_price': 94.53, 'best_ask_price': 94.6,
+    # 'pressure_ask': 0.5691318038715365, 'pressure_bid': 0.4308681961284635,
+    # 'weighted_bid_price': 94.44239436619718, 'weighted_ask_price': 94.72882352941177,
+    # 'weighted_mid_price': 94.54, 'weighted_price': 94.60519756838906,
+    # 'middle_price': 94.565}
+    def convert_json_to_csv(self, json_log):
+        out_file = json_log + ".csv"
+        with open(out_file, 'w', newline='') as file:
+            writer = csv.writer(file, delimiter=';')
+            writer.writerow(['timestamp','spread',
+                            'book_imbalance','best_bid_price',
+                            'best_ask_price','pressure_ask',
+                            'pressure_bid','weighted_bid_price',
+                            'weighted_ask_price','weighted_mid_price',
+                            'weighted_price','middle_price'])
 
-    analytics.print()
+            with open(json_log, "r") as values_file:
+                for line in values_file:
+                    jl = json.loads(line)
+                    writer.writerow([jl['timestamp'],jl['spread'],
+                                    jl['book_imbalance'],jl['best_bid_price'],
+                                    jl['best_ask_price'],jl['pressure_ask'],
+                                    jl['pressure_bid'],jl['weighted_bid_price'],
+                                    jl['weighted_ask_price'],jl['weighted_mid_price'],
+                                    jl['weighted_price'],jl['middle_price']])
+
+if __name__ == "__main__":
+    #file = 'example/aggregatedbook.json'
+    #with open(file, "r") as values_file:
+    #    values_json = json.load(values_file)
+    #abt = AggregatedBookType(values_json)
+    #analytics = AggregatedBookAnalytics(abt)
+    #analytics.print()
+    file = 'example/bpac11_bear_market_20210308_sample'
+    #file = 'bpac11_bear_market_20210308.log'
+    analytics = AggregatedBookAnalytics()
+    analytics.convert_json_to_csv(file)

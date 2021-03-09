@@ -17,7 +17,8 @@ with open('config.json', "r") as config_json_file:
     cfg = json.load(config_json_file)
 
 ###### buffers
-analytic_buffer=RingBuffer(10*60*10) # ~10 min
+BUFFER_SIZE = 10*60*10  # ~10 min
+analytic_buffer=RingBuffer(BUFFER_SIZE)
 
 symbol = "petr4" # petr4, bpac11
 market = "XBSP" # XBSP := Bovespa, XBMF := BM&F || https://www.onixs.biz/fix-dictionary/4.4/app_6_c.html
@@ -32,7 +33,9 @@ def on_message(ws, raw_message):
             book = AggregatedBookType(data)
             #book.print()
             analytics = AggregatedBookAnalytics(book)
-            analytic_buffer.append(book)
+            analytic_buffer.append(analytics)
+            if analytic_buffer.len() > BUFFER_SIZE/2:
+                print("process ...")
             analytics.print()
         elif data['type'] == 'BookSnapshotType':
             book = BookType(data)
