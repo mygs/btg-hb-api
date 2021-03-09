@@ -92,17 +92,17 @@ class AggregatedBookAnalytics:
         out_file = json_log + ".csv"
         with open(out_file, 'w', newline='') as file:
             writer = csv.writer(file, delimiter=';')
-            writer.writerow(['timestamp','spread',
-                            'book_imbalance','best_bid_price',
-                            'best_ask_price','pressure_ask',
-                            'pressure_bid','weighted_bid_price',
-                            'weighted_ask_price','weighted_mid_price',
-                            'weighted_price','middle_price'])
+            writer.writerow(['timestamp','symbol','spread',
+                            'book_imbalance','best_bid_p',
+                            'best_ask_p','pressure_ask',
+                            'pressure_bid','wt_bid_p',
+                            'wt_ask_p','wt_mid_p',
+                            'wt_p','mid_p'])
 
             with open(json_log, "r") as values_file:
                 for line in values_file:
-                    jl = json.loads(line)
-                    writer.writerow([jl['timestamp'],jl['spread'],
+                    jl = json.loads(line.replace("'", '"'))
+                    writer.writerow([jl['timestamp'],jl['symbol'],jl['spread'],
                                     jl['book_imbalance'],jl['best_bid_price'],
                                     jl['best_ask_price'],jl['pressure_ask'],
                                     jl['pressure_bid'],jl['weighted_bid_price'],
@@ -117,6 +117,7 @@ if __name__ == "__main__":
     #analytics = AggregatedBookAnalytics(abt)
     #analytics.print()
     #file = 'example/bpac11_bear_market_20210308_sample'
-    file = 'bpac11_bear_market_20210308'
+    #file = 'bpac11_bear_market_20210308'
+    file = 'example/wallet_example'
     analytics = AggregatedBookAnalytics()
     analytics.convert_json_to_csv(file)
