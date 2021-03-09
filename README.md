@@ -75,6 +75,10 @@ replace "?????" accordingly:
 |    Weighted Bid $    | 22.209 |
 |    Balance Bid %     | 0.492  |
 
+
+## Widgets for Limit Order Book statistics
+![lob widget](img/jupyter_lob_analysis.png)
+
 ##  Reference
 
 * [Manual](http://files.cedrofinances.com.br/Downloads/Manuais/Manual_Integracao_e_Funcionalidade_WebFeeder.pdf) - Manual de Integração e Funcionalidade
