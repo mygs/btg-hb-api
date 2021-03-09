@@ -28,15 +28,18 @@ def on_message(ws, raw_message):
     if 'type' in data:
         if data['type'] == 'QuoteType':
             quote = QuoteType(data)
-            quote.print()
+            #quote.print()
+            print(quote.__dict__)
+
         elif data['type'] == 'AggregatedBookType':
             book = AggregatedBookType(data)
             #book.print()
             analytics = AggregatedBookAnalytics(book)
-            analytic_buffer.append(analytics)
-            if analytic_buffer.len() > BUFFER_SIZE/2:
-                print("process ...")
-            analytics.print()
+            #analytic_buffer.append(analytics)
+            #if analytic_buffer.len() > BUFFER_SIZE/2:
+            #    print("process ...")
+            #analytics.print()
+            print(analytics.__dict__)
         elif data['type'] == 'BookSnapshotType':
             book = BookType(data)
             book.print()
@@ -62,7 +65,7 @@ req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
 #req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
 #req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
 #req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
-#req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
+req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})
 #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"dailyOrder","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True}})
@@ -73,11 +76,11 @@ def on_open(ws):
         for i in range(len(req)):
             time.sleep(1)
             ws.send(json.dumps(req[i]))
-        print("subscription request sent")
+        #print("subscription request sent")
     thread.start_new_thread(run, ())
 
 if __name__ == "__main__":
-    print("*** STARTING BTG HB DAYTRADE SUPPORT SYSTEM ***")
+    #print("*** STARTING BTG HB DAYTRADE SUPPORT SYSTEM ***")
     websocket.enableTrace(False)
     ws = websocket.WebSocketApp(cfg["ENDPOINT"]+cfg["TKNWF"],
                               on_open = on_open,

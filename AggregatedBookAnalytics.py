@@ -113,7 +113,7 @@ if __name__ == "__main__":
     #abt = AggregatedBookType(values_json)
     #analytics = AggregatedBookAnalytics(abt)
     #analytics.print()
-    file = 'example/bpac11_bear_market_20210308_sample'
-    #file = 'bpac11_bear_market_20210308.log'
+    #file = 'example/bpac11_bear_market_20210308_sample'
+    file = 'bpac11_bear_market_20210308'
     analytics = AggregatedBookAnalytics()
     analytics.convert_json_to_csv(file)
