@@ -9,6 +9,8 @@ class AggregatedBookAnalytics:
 
     def __init__(self, book = None):
         self.timestamp = int(time.time())
+        self.symbol = None
+        self.type = "AggregatedBookAnalytics"
         self.spread = 0
         self.book_depth = 0
         self.book_imbalance = 0
@@ -22,6 +24,7 @@ class AggregatedBookAnalytics:
         self.weighted_price = 0
         self.middle_price = 0
         if book is not None:
+            self.symbol = book.symbol
             self.calc(book)
 
     def calc(self, book):
