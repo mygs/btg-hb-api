@@ -70,6 +70,7 @@ for symbol in cfg["SYMBOLS"]:
     #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})
     #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"dailyOrder","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True}})
     #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"cancelOrderReject","parameters":{"account":cfg["ACCOUNT"],"dispatch":False,"market":market}})
+    print("requests sent to symbol:",symbol)
 
 def on_open(ws):
     def run(*args):
@@ -80,7 +81,7 @@ def on_open(ws):
     thread.start_new_thread(run, ())
 
 if __name__ == "__main__":
-    #print("*** STARTING BTG HB DAYTRADE SUPPORT SYSTEM ***")
+    print("*** STARTING BTG HB DAYTRADE SUPPORT SYSTEM ***")
     websocket.enableTrace(False)
     ws = websocket.WebSocketApp(cfg["ENDPOINT"]+cfg["TKNWF"],
                               on_open = on_open,
