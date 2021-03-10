@@ -11,9 +11,11 @@ class QuoteRequest(Request):
     def __init__(self, token, symbol):
         Request.__init__(self, token, "quotes", "quote")
         self.parameterGet = symbol
-        self.parameters = {"subsbribetype": self.subsbribetype,
+        self.parameters = {
+                            "delay": self.delay,
                             "filter": self.filter,
-                            "delay": self.delay}
+                            "subsbribetype": self.subsbribetype
+                            }
 class QuoteType:
     def __init__(self, json):
         self.timestamp = int(time.time())

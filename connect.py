@@ -51,7 +51,8 @@ def on_message(ws, raw_message):
         elif data['type'] == 'BusinessBookType':
             qtt = QuoteTradeType(data)
             qtt.print()
-
+    else:
+        print(data)
 def on_error(ws, error):
     print(error)
 
@@ -60,12 +61,13 @@ def on_close(ws):
 
 req = []
 for symbol in cfg["SYMBOLS"]:
-    req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
     #req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
     #req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
     #req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
     #req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
     req.append(QuoteRequest(cfg["TKNWF"], symbol).to_json())
+    req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
+
     #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"financialAccountInformationCompl","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True,"omsFilter":False}})
     #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"position","parameters":{"account":cfg["ACCOUNT"],"market":market,"history":False,"dispatch":False,"openQtyFilter":0}})
     #req.append({"token":cfg["TKNWF"],"module":"negotiation","service":"dailyOrder","parameters":{"account":cfg["ACCOUNT"],"market":market,"dispatch":False,"history":True}})
