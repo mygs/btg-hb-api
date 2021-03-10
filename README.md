@@ -6,6 +6,7 @@ This is a Python api to connect with BTGPactual Web Home Broker. This api enable
 Create config.json file, just like bellow:
 ```json
 {
+  "SYMBOLS": ["?????"],
   "ACCOUNT": "?????",
   "TKNWF": "?????",
   "ENDPOINT": "wss://webfeeder.btgpactual.com/ws?reconnect="
@@ -14,6 +15,7 @@ Create config.json file, just like bellow:
 replace "?????" accordingly:
 | KEY | VALUE |
 |:---:|:------|
+|SYMBOLS| Symbols to be monitored |
 |ACCOUNT| Your BTG account number |
 |TKNWF| Web Home Broker Token |
 |ENDPOINT| Websocket URL |

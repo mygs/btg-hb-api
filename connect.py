@@ -20,8 +20,6 @@ with open('config.json', "r") as config_json_file:
 BUFFER_SIZE = 10*60*10  # ~10 min
 analytic_buffer=RingBuffer(BUFFER_SIZE)
 
-symbol = "petr4" # petr4, bpac11
-symbols = ["vale3","petr4", "bpac11", "ceab3", "abev3", "b3sa3", "embr3", "ggbr4", "tots3"]
 market = "XBSP" # XBSP := Bovespa, XBMF := BM&F || https://www.onixs.biz/fix-dictionary/4.4/app_6_c.html
 
 def on_message(ws, raw_message):
@@ -61,7 +59,7 @@ def on_close(ws):
     print("### closed ###")
 
 req = []
-for symbol in symbols:
+for symbol in cfg["SYMBOLS"]:
     req.append(AggregatedBookRequest(cfg["TKNWF"], symbol).to_json())
     #req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
     #req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())

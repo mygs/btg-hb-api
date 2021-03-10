@@ -6,7 +6,7 @@ from prettytable import PrettyTable
 
 class AggregatedBookRequest(Request):
     subsbribetype = "1"
-    delay = "500"
+    delay = "800"
     def __init__(self, token, symbol):
         Request.__init__(self, token, "quotes", "aggregatedBook")
         self.parameterGet = symbol
