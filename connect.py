@@ -57,9 +57,10 @@ def on_error(ws, error):
     print(error)
 
 def on_close(ws):
-    #print("### closed ###")
+    print("### closed ###")
 
-req = {}
+
+req = []
 for symbol in cfg["SYMBOLS"]:
     #req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
     #req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
