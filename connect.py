@@ -17,8 +17,8 @@ with open('config.json', "r") as config_json_file:
     cfg = json.load(config_json_file)
 
 ###### buffers
-BUFFER_SIZE = 10*60*10  # ~10 min
-analytic_buffer=RingBuffer(BUFFER_SIZE)
+#BUFFER_SIZE = 10*60*10  # ~10 min
+#analytic_buffer=RingBuffer(BUFFER_SIZE)
 
 market = "XBSP" # XBSP := Bovespa, XBMF := BM&F || https://www.onixs.biz/fix-dictionary/4.4/app_6_c.html
 
