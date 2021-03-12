@@ -62,6 +62,13 @@ replace "?????" accordingly:
 ## Widgets for Limit Order Book statistics
 ![lob widget](img/jupyter_lob_analysis.png)
 
+## Troubleshooting
+* update TKNWF token and restart connection
+```json
+{'message': 'Usuário não autorizado ou token inválido.', 'code': 111}
+```
+
+
 ##  Reference
 
 * [Manual](http://files.cedrofinances.com.br/Downloads/Manuais/Manual_Integracao_e_Funcionalidade_WebFeeder.pdf) - Manual de Integração e Funcionalidade
