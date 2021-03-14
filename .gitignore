@@ -1,6 +1,7 @@
 config.json
 hb_main.js
 *.csv
+*tar.gz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
