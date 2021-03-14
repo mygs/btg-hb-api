@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding = utf-8 -*-
-import json, time, csv
+import json, time, csv, argparse
 from AggregatedBook import AggregatedBookType
 from prettytable import PrettyTable
 
@@ -102,14 +102,24 @@ class AggregatedBookAnalytics:
             with open(json_log, "r") as values_file:
                 for line in values_file:
                     jl = json.loads(line.replace("'", '"'))
-                    writer.writerow([jl['timestamp'],jl['symbol'],jl['spread'],
-                                    jl['book_imbalance'],jl['best_bid_price'],
-                                    jl['best_ask_price'],jl['pressure_ask'],
-                                    jl['pressure_bid'],jl['weighted_bid_price'],
-                                    jl['weighted_ask_price'],jl['weighted_mid_price'],
-                                    jl['weighted_price'],jl['middle_price']])
+                    if ("type" in jl) and (jl["type"] == "AggregatedBookAnalytics"):
+                        writer.writerow([jl['timestamp'],jl['symbol'],jl['spread'],
+                                        jl['book_imbalance'],jl['best_bid_price'],
+                                        jl['best_ask_price'],jl['pressure_ask'],
+                                        jl['pressure_bid'],jl['weighted_bid_price'],
+                                        jl['weighted_ask_price'],jl['weighted_mid_price'],
+                                        jl['weighted_price'],jl['middle_price']])
 
 if __name__ == "__main__":
+    # Add the arguments
+    input_args_parser = argparse.ArgumentParser(description='File to be processed')
+    input_args_parser.add_argument('File',
+                                    nargs='?',
+                                    metavar='file',
+                                    type=str,
+                                    help='json log file')
+    args = input_args_parser.parse_args()
+    file = args.File
     #file = 'example/aggregatedbook.json'
     #with open(file, "r") as values_file:
     #    values_json = json.load(values_file)
@@ -118,6 +128,6 @@ if __name__ == "__main__":
     #analytics.print()
     #file = 'example/bpac11_bear_market_20210308_sample'
     #file = 'bpac11_bear_market_20210308'
-    file = 'example/wallet_example'
+    #file = 'example/wallet_example'
     analytics = AggregatedBookAnalytics()
     analytics.convert_json_to_csv(file)
