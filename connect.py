@@ -33,6 +33,7 @@ def on_message(ws, raw_message):
         elif data['type'] == 'AggregatedBookType':
             book = AggregatedBookType(data)
             #book.print()
+            print(book.__dict__)
             analytics = AggregatedBookAnalytics(book)
             #analytic_buffer.append(analytics)
             #if analytic_buffer.len() > BUFFER_SIZE/2:
