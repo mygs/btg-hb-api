@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding = utf-8 -*-
-import json
+import json,time
 from Request import *
 from prettytable import PrettyTable
 
@@ -15,6 +15,7 @@ class AggregatedBookRequest(Request):
 class AggregatedBookType:
 
     def __init__(self, message):
+        self.timestamp = int(time.time())
         self.symbol = message['parameter']
         self.type = message['type']
         self.bid = message['book']['A']
