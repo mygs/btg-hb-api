@@ -28,7 +28,7 @@ def on_message(ws, raw_message):
         if data['type'] == 'QuoteType':
             quote = QuoteType(data)
             #quote.print()
-            #print(quote.__dict__)
+            print(quote.__dict__)
 
         elif data['type'] == 'AggregatedBookType':
             book = AggregatedBookType(data)
@@ -42,18 +42,20 @@ def on_message(ws, raw_message):
             print(analytics.__dict__)
         elif data['type'] == 'BookSnapshotType':
             book = BookType(data)
-            book.print()
+            #book.print()
         elif data['type'] == 'MarketRankingType':
             mrt = MarketRankingType(data)
-            mrt.print()
+            #mrt.print()
         elif data['type'] == 'ResumeMarketType':
             rmt = ResumeMarketType(data)
-            rmt.print()
+            #rmt.print()
         elif data['type'] == 'BusinessBookType':
             qtt = QuoteTradeType(data)
-            qtt.print()
-    else:
-        print(data)
+            print(qtt.__dict__)
+
+            #qtt.print()
+    #else:
+        #print(data)
 def on_error(ws, error):
     print(error)
 
@@ -63,7 +65,7 @@ def on_close(ws):
 
 req = []
 for symbol in cfg["SYMBOLS"]:
-    #req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
+    req.append(QuoteTradeRequest(cfg["TKNWF"], symbol).to_json())
     #req.append(MarketRankingRequest(cfg["TKNWF"], "bovespa").to_json())
     #req.append(ResumeMarketListRequest(cfg["TKNWF"], "highList").to_json())
     #req.append(BookRequest(cfg["TKNWF"], symbol).to_json())
