@@ -94,7 +94,7 @@ class AggregatedBookType:
                         ask[10]['Q'],ask[10]['P'],ask[10]['QTD'],
                         ask[11]['Q'],ask[11]['P'],ask[11]['QTD'],
                         ask[12]['Q'],ask[12]['P'],ask[12]['QTD'],
-                        ask[13]['Q'],ask[13]['P'],ask[13]['QTD'],
+                        ask[13]['Q'],ask[13]['P'],ask[13]['QTD']
                         #ask[14]['Q'],ask[14]['P'],ask[14]['QTD']
                         ])
 
