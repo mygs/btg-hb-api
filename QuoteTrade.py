@@ -40,10 +40,34 @@ class QuoteTradeType:
                         ])
         print(trades)
 
+    def convert_json_to_csv(self, json_log):
+        out_file = json_log + ".csv"
+        #with open(out_file, 'w', newline='') as file:
+        #    writer = csv.writer(file, delimiter=';')
+        #    writer.writerow(['timestamp','symbol'])
+
+            with open(json_log, "r") as values_file:
+                for line in values_file:
+                    jl = json.loads(line.replace("'", '"'))
+                    if ("type" in jl) and (jl["type"] == "BusinessBookType"):
+                        #writer.writerow([jl['timestamp'],jl['symbol']])
+                        trades = jl['trades']
+
+
 if __name__ == "__main__":
-    qtr = QuoteTradeRequest("test_token", "test_symbol")
-    print(qtr.to_json())
-    with open('example/quoteTrade.json', "r") as values_file:
-        values_json = json.load(values_file)
-    qtt = QuoteTradeType(values_json)
-    qtt.print()
+    #qtr = QuoteTradeRequest("test_token", "test_symbol")
+    #print(qtr.to_json())
+    #with open('example/quoteTrade.json', "r") as values_file:
+    #    values_json = json.load(values_file)
+    #qtt = QuoteTradeType(values_json)
+    #qtt.print()
+    input_args_parser = argparse.ArgumentParser(description='File to be processed')
+    input_args_parser.add_argument('File',
+                                    nargs='?',
+                                    metavar='file',
+                                    type=str,
+                                    help='json log file')
+    args = input_args_parser.parse_args()
+    file = args.File
+    qtt = QuoteTradeType()
+    qtt.convert_json_to_csv(file)
