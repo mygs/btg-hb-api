@@ -1,8 +1,19 @@
 #!/usr/bin/python3
 # -*- coding = utf-8 -*-
-import json,time
+import json,time, csv, argparse
+from datetime import datetime
 from Request import *
 from prettytable import PrettyTable
+TIME_FORMAT = '%b %d, %Y %I:%M:%S %p%z'
+TIMEZONE_DIFF = '-0300'
+class Trade(object):
+    def __init__(self, json):
+        self.qty = json["QT"]
+        self.price = json["P"]
+        self.time = int(datetime.strptime(json["T"] +TIMEZONE_DIFF ,TIME_FORMAT).timestamp())
+        self.buyer = json["PCB"]
+        self.seller = json["PCL"]
+        self.agressor = json["CDA"]
 
 class QuoteTradeRequest(Request):
     subsbribetype = "1"
@@ -16,11 +27,12 @@ class QuoteTradeRequest(Request):
                             "delay": self.delay}
 class QuoteTradeType:
 
-    def __init__(self, message):
-        self.timestamp = int(time.time())
-        self.symbol = message['parameter']
-        self.type = message['type']
-        self.trades = message['quoteTrade']['L']
+    def __init__(self, message=None):
+        if message is not None:
+            self.timestamp = int(time.time())
+            self.symbol = message['parameter']
+            self.type = message['type']
+            self.trades = message['quoteTrade']['L']
 
     def print(self):
         trades = PrettyTable()
@@ -46,12 +58,16 @@ class QuoteTradeType:
         #    writer = csv.writer(file, delimiter=';')
         #    writer.writerow(['timestamp','symbol'])
 
-            with open(json_log, "r") as values_file:
-                for line in values_file:
-                    jl = json.loads(line.replace("'", '"'))
-                    if ("type" in jl) and (jl["type"] == "BusinessBookType"):
-                        #writer.writerow([jl['timestamp'],jl['symbol']])
-                        trades = jl['trades']
+        with open(json_log, "r") as values_file:
+            for line in values_file:
+                jl = json.loads(line.replace("'", '"'))
+                if ("type" in jl) and (jl["type"] == "BusinessBookType"):
+                    #writer.writerow([jl['timestamp'],jl['symbol']])
+                    trades_json = jl['trades']
+                    for trade_json in trades_json:
+                        trade = Trade(trade_json)
+                        print(trade.__dict__)
+
 
 
 if __name__ == "__main__":

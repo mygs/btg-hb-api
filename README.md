@@ -72,6 +72,7 @@ replace "?????" accordingly:
 ##  Reference
 
 * [Manual](http://files.cedrofinances.com.br/Downloads/Manuais/Manual_Integracao_e_Funcionalidade_WebFeeder.pdf) - Manual de Integração e Funcionalidade
+* [Manual BTG Homebroker](https://www.btgpactualdigital.com/content/pdf/BTGPactual_digital_ManualHB.pdf)
 * [Paper](http://www.pbcsf.tsinghua.edu.cn/research/caoquanwei/paper/10.The%20Information%20Content%20of%20an%20Open%20Limit%20Order%20Book.pdf) - The information content of an open limit-order book
 * [Thesis](https://tspace.library.utoronto.ca/bitstream/1807/70567/3/Rubisov_Anton_201511_MAS_thesis.pdf) - Statistical Arbitrage Using Limit Order Book Imbalance
 * [Paper](http://www.columbia.edu/~ww2040/orderbook.pdf) - A stochastic model for order book dynamics
