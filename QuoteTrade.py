@@ -14,6 +14,10 @@ class Trade(object):
         self.buyer = json["PCB"]
         self.seller = json["PCL"]
         self.agressor = json["CDA"]
+        self.hash = hash((self.qty, self.price, self.time, self.buyer, self.seller, self.agressor))
+
+    def __hash__(self):
+        return self.hash
 
 class QuoteTradeRequest(Request):
     subsbribetype = "1"
@@ -29,6 +33,7 @@ class QuoteTradeType:
 
     def __init__(self, message=None):
         if message is not None:
+
             self.timestamp = int(time.time())
             self.symbol = message['parameter']
             self.type = message['type']
