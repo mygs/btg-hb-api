@@ -71,8 +71,10 @@ class QuoteTradeType:
                     trades_json = jl['trades']
                     for trade_json in trades_json:
                         trade = Trade(trade_json)
-                        trades[trade.hash] = trade
-                        #print(trade.__dict__)
+                        trade_from_dict = trades.get(trade.hash)
+                        if trade_from_dict is None:
+                            # new trade
+                            trades[trade.hash] = trade
 
         for idx in trades:
             print(trades[idx].__dict__)
