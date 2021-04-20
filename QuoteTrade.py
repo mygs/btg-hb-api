@@ -59,15 +59,12 @@ class QuoteTradeType:
 
     def convert_json_to_csv(self, json_log):
         out_file = json_log + ".csv"
-        #with open(out_file, 'w', newline='') as file:
-        #    writer = csv.writer(file, delimiter=';')
-        #    writer.writerow(['timestamp','symbol'])
+
         trades = {}
         with open(json_log, "r") as values_file:
             for line in values_file:
                 jl = json.loads(line.replace("'", '"'))
                 if ("type" in jl) and (jl["type"] == "BusinessBookType"):
-                    #writer.writerow([jl['timestamp'],jl['symbol']])
                     trades_json = jl['trades']
                     for trade_json in trades_json:
                         trade = Trade(trade_json)
@@ -75,10 +72,11 @@ class QuoteTradeType:
                         if trade_from_dict is None:
                             # new trade
                             trades[trade.hash] = trade
-
-        for idx in trades:
-            print(trades[idx].__dict__)
-
+        with open(out_file, 'w', newline='') as file:
+            writer = csv.writer(file, delimiter=';')
+            writer.writerow(['time','price','qty','buyer','seller' ,'agressor'])
+            for idx in trades:
+                writer.writerow([trades[idx].time,trades[idx].price,trades[idx].qty,trades[idx].buyer,trades[idx].seller ,trades[idx].agressor])
 
 
 if __name__ == "__main__":
