@@ -62,7 +62,7 @@ class QuoteTradeType:
         #with open(out_file, 'w', newline='') as file:
         #    writer = csv.writer(file, delimiter=';')
         #    writer.writerow(['timestamp','symbol'])
-
+        trades = {}
         with open(json_log, "r") as values_file:
             for line in values_file:
                 jl = json.loads(line.replace("'", '"'))
@@ -71,7 +71,11 @@ class QuoteTradeType:
                     trades_json = jl['trades']
                     for trade_json in trades_json:
                         trade = Trade(trade_json)
-                        print(trade.__dict__)
+                        trades[trade.hash] = trade
+                        #print(trade.__dict__)
+
+        for idx in trades:
+            print(trades[idx].__dict__)
 
 
 
