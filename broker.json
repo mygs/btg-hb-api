@@ -1,0 +1,3082 @@
+[
+   {
+      "playersCode":274,
+      "playerMarketCode":"0",
+      "playerNameFull":"CORRETORA NAO INFORMADA",
+      "playerName":"-",
+      "marketCode":5
+   },
+   {
+      "playersCode":274,
+      "playerMarketCode":"0",
+      "playerNameFull":"CORRETORA NAO INFORMADA",
+      "playerName":"-",
+      "marketCode":8
+   },
+   {
+      "playersCode":274,
+      "playerMarketCode":"0",
+      "playerNameFull":"CORRETORA NAO INFORMADA",
+      "playerName":"-",
+      "marketCode":3
+   },
+   {
+      "playersCode":274,
+      "playerMarketCode":"0",
+      "playerNameFull":"CORRETORA NAO INFORMADA",
+      "playerName":"-",
+      "marketCode":1
+   },
+   {
+      "playersCode":119,
+      "playerMarketCode":"30",
+      "playerNameFull":"ABN AMRO REAL CCVM S.A.",
+      "playerName":"ABN",
+      "marketCode":3
+   },
+   {
+      "playersCode":119,
+      "playerMarketCode":"30",
+      "playerNameFull":"ABN AMRO REAL CCVM S.A.",
+      "playerName":"ABN",
+      "marketCode":1
+   },
+   {
+      "playersCode":119,
+      "playerMarketCode":"30",
+      "playerNameFull":"ABN AMRO REAL CCVM S.A.",
+      "playerName":"ABN",
+      "marketCode":6
+   },
+   {
+      "playersCode":190,
+      "playerMarketCode":"6",
+      "playerNameFull":"ABN AMRO SEC (BRASIL) CVM S.A.",
+      "playerName":"ABN AMRO SEC",
+      "marketCode":1
+   },
+   {
+      "playersCode":120,
+      "playerMarketCode":"39",
+      "playerNameFull":"AGORA CTVM S.A.",
+      "playerName":"AGORA",
+      "marketCode":3
+   },
+   {
+      "playersCode":120,
+      "playerMarketCode":"39",
+      "playerNameFull":"AGORA CTVM S.A.",
+      "playerName":"AGORA",
+      "marketCode":6
+   },
+   {
+      "playersCode":120,
+      "playerMarketCode":"39",
+      "playerNameFull":"AGORA CTVM S.A.",
+      "playerName":"AGORA",
+      "marketCode":1
+   },
+   {
+      "playersCode":121,
+      "playerMarketCode":"4",
+      "playerNameFull":"ALFA CCVM S.A.",
+      "playerName":"ALFA",
+      "marketCode":3
+   },
+   {
+      "playersCode":121,
+      "playerMarketCode":"4",
+      "playerNameFull":"ALFA CCVM S.A.",
+      "playerName":"ALFA",
+      "marketCode":1
+   },
+   {
+      "playersCode":121,
+      "playerMarketCode":"4",
+      "playerNameFull":"ALFA CCVM S.A.",
+      "playerName":"ALFA",
+      "marketCode":6
+   },
+   {
+      "playersCode":191,
+      "playerMarketCode":"98",
+      "playerNameFull":"ALPES CCTVM LTDA.",
+      "playerName":"ALPES",
+      "marketCode":3
+   },
+   {
+      "playersCode":191,
+      "playerMarketCode":"98",
+      "playerNameFull":"ALPES CCTVM LTDA.",
+      "playerName":"ALPES",
+      "marketCode":1
+   },
+   {
+      "playersCode":191,
+      "playerMarketCode":"98",
+      "playerNameFull":"ALPES CCTVM LTDA.",
+      "playerName":"ALPES",
+      "marketCode":6
+   },
+   {
+      "playersCode":122,
+      "playerMarketCode":"226",
+      "playerNameFull":"AMARIL FRANKLIN CTV LTDA.",
+      "playerName":"AMARIL FRANKLIN",
+      "marketCode":6
+   },
+   {
+      "playersCode":122,
+      "playerMarketCode":"226",
+      "playerNameFull":"AMARIL FRANKLIN CTV LTDA.",
+      "playerName":"AMARIL FRANKLIN",
+      "marketCode":1
+   },
+   {
+      "playersCode":124,
+      "playerMarketCode":"147",
+      "playerNameFull":"ATIVA S.A. CTCV",
+      "playerName":"ATIVA",
+      "marketCode":6
+   },
+   {
+      "playersCode":124,
+      "playerMarketCode":"147",
+      "playerNameFull":"ATIVA S.A. CTCV",
+      "playerName":"ATIVA",
+      "marketCode":1
+   },
+   {
+      "playersCode":124,
+      "playerMarketCode":"147",
+      "playerNameFull":"ATIVA S.A. CTCV",
+      "playerName":"ATIVA",
+      "marketCode":3
+   },
+   {
+      "playersCode":192,
+      "playerMarketCode":"196",
+      "playerNameFull":"AUREUM SCCVM LTDA.",
+      "playerName":"AUREUM",
+      "marketCode":1
+   },
+   {
+      "playersCode":303,
+      "playerMarketCode":"44",
+      "playerNameFull":"BANCO J.SAFRA S/A",
+      "playerName":"BANCO J.SAFRA",
+      "marketCode":3
+   },
+   {
+      "playersCode":304,
+      "playerMarketCode":"36",
+      "playerNameFull":"BANCO RURAL S/A",
+      "playerName":"BANCO RURAL",
+      "marketCode":3
+   },
+   {
+      "playersCode":193,
+      "playerMarketCode":"55",
+      "playerNameFull":"BANKBOSTON CCTVM S.A.",
+      "playerName":"BANKBOSTON",
+      "marketCode":1
+   },
+   {
+      "playersCode":127,
+      "playerMarketCode":"172",
+      "playerNameFull":"BANRISUL S.A. CVMC",
+      "playerName":"BANRISUL",
+      "marketCode":1
+   },
+   {
+      "playersCode":127,
+      "playerMarketCode":"172",
+      "playerNameFull":"BANRISUL S.A. CVMC",
+      "playerName":"BANRISUL",
+      "marketCode":6
+   },
+   {
+      "playersCode":961,
+      "playerMarketCode":"134",
+      "playerNameFull":"BARCLAYS CTVM S/A",
+      "playerName":"BARCLAYS CTVM",
+      "marketCode":1
+   },
+   {
+      "playersCode":128,
+      "playerMarketCode":"820",
+      "playerNameFull":"BB BANCO DE INVESTIMENTO S/A",
+      "playerName":"BB BANCO DE INVESTIMENTO",
+      "marketCode":6
+   },
+   {
+      "playersCode":128,
+      "playerMarketCode":"820",
+      "playerNameFull":"BB BANCO DE INVESTIMENTO S/A",
+      "playerName":"BB BANCO DE INVESTIMENTO",
+      "marketCode":1
+   },
+   {
+      "playersCode":129,
+      "playerMarketCode":"18",
+      "playerNameFull":"BBM CCVM S.A.",
+      "playerName":"BBM",
+      "marketCode":1
+   },
+   {
+      "playersCode":129,
+      "playerMarketCode":"18",
+      "playerNameFull":"BBM CCVM S.A.",
+      "playerName":"BBM",
+      "marketCode":6
+   },
+   {
+      "playersCode":130,
+      "playerMarketCode":"671",
+      "playerNameFull":"BCO OPPORTUNITY S.A.",
+      "playerName":"BCO OPPORTUNITY",
+      "marketCode":6
+   },
+   {
+      "playersCode":131,
+      "playerMarketCode":"442",
+      "playerNameFull":"BCO OURINVEST S.A.",
+      "playerName":"BCO OURINVEST",
+      "marketCode":6
+   },
+   {
+      "playersCode":131,
+      "playerMarketCode":"442",
+      "playerNameFull":"BCO OURINVEST S.A.",
+      "playerName":"BCO OURINVEST",
+      "marketCode":1
+   },
+   {
+      "playersCode":981,
+      "playerMarketCode":"122",
+      "playerNameFull":"LIQUIDEZ DTVM LTDA",
+      "playerName":"BGC",
+      "marketCode":1
+   },
+   {
+      "playersCode":289,
+      "playerMarketCode":"122",
+      "playerNameFull":"LIQUIDEZ DTVM LTDA",
+      "playerName":"BGC",
+      "marketCode":3
+   },
+   {
+      "playersCode":964,
+      "playerMarketCode":"999",
+      "playerNameFull":"BM\u0026F (OPERACOES INTERNAS)",
+      "playerName":"BM\u0026F",
+      "marketCode":3
+   },
+   {
+      "playersCode":275,
+      "playerMarketCode":"100",
+      "playerNameFull":"BOVESPA",
+      "playerName":"BOVESPA",
+      "marketCode":1
+   },
+   {
+      "playersCode":133,
+      "playerMarketCode":"72",
+      "playerNameFull":"BRADESCO S.A. CTVM",
+      "playerName":"BRADESCO",
+      "marketCode":6
+   },
+   {
+      "playersCode":133,
+      "playerMarketCode":"72",
+      "playerNameFull":"BRADESCO S.A. CTVM",
+      "playerName":"BRADESCO",
+      "marketCode":3
+   },
+   {
+      "playersCode":133,
+      "playerMarketCode":"72",
+      "playerNameFull":"BRADESCO S.A. CTVM",
+      "playerName":"BRADESCO",
+      "marketCode":1
+   },
+   {
+      "playersCode":134,
+      "playerMarketCode":"57",
+      "playerNameFull":"BRASCAN S.A. CTV",
+      "playerName":"BRASCAN",
+      "marketCode":3
+   },
+   {
+      "playersCode":134,
+      "playerMarketCode":"57",
+      "playerNameFull":"BRASCAN S.A. CTV",
+      "playerName":"BRASCAN",
+      "marketCode":6
+   },
+   {
+      "playersCode":134,
+      "playerMarketCode":"57",
+      "playerNameFull":"BRASCAN S.A. CTV",
+      "playerName":"BRASCAN",
+      "marketCode":1
+   },
+   {
+      "playersCode":7336,
+      "playerMarketCode":"336",
+      "playerNameFull":"BR PARTNERS CTVM S/A",
+      "playerName":"BR PARTNERS",
+      "marketCode":1
+   },
+   {
+      "playersCode":164,
+      "playerMarketCode":"85",
+      "playerNameFull":"BTG PACTUAL CTVM S.A",
+      "playerName":"BTG",
+      "marketCode":1
+   },
+   {
+      "playersCode":164,
+      "playerMarketCode":"85",
+      "playerNameFull":"BTG PACTUAL CTVM S.A",
+      "playerName":"BTG",
+      "marketCode":6
+   },
+   {
+      "playersCode":2591,
+      "playerMarketCode":"85",
+      "playerNameFull":"BTG PACTUAL CTVM S.A.",
+      "playerName":"BTG",
+      "marketCode":3
+   },
+   {
+      "playersCode":972,
+      "playerMarketCode":"119",
+      "playerNameFull":"BTG PACTUAL CM LTDA ",
+      "playerName":"BTG Pactual",
+      "marketCode":3
+   },
+   {
+      "playersCode":13894,
+      "playerMarketCode":"6003",
+      "playerNameFull":"C6",
+      "playerName":"C6 BANK",
+      "marketCode":1
+   },
+   {
+      "playersCode":13895,
+      "playerMarketCode":"6003",
+      "playerNameFull":"C6",
+      "playerName":"C6 BANK",
+      "marketCode":3
+   },
+   {
+      "playersCode":126,
+      "playerMarketCode":"102",
+      "playerNameFull":"CGD INVESTIMENTOS CORRETORA DE VALORES E CAMBIO SA",
+      "playerName":"CGD",
+      "marketCode":6
+   },
+   {
+      "playersCode":126,
+      "playerMarketCode":"102",
+      "playerNameFull":"CGD INVESTIMENTOS CORRETORA DE VALORES E CAMBIO SA",
+      "playerName":"CGD",
+      "marketCode":1
+   },
+   {
+      "playersCode":126,
+      "playerMarketCode":"102",
+      "playerNameFull":"CGD INVESTIMENTOS CORRETORA DE VALORES E CAMBIO SA",
+      "playerName":"CGD",
+      "marketCode":3
+   },
+   {
+      "playersCode":1000,
+      "playerMarketCode":"298",
+      "playerNameFull":"CITIBANK DTVM S/A",
+      "playerName":"CITIBANK",
+      "marketCode":3
+   },
+   {
+      "playersCode":8491,
+      "playerMarketCode":"77",
+      "playerNameFull":"CITIGROUP",
+      "playerName":"CITIGROUP",
+      "marketCode":3
+   },
+   {
+      "playersCode":8492,
+      "playerMarketCode":"77",
+      "playerNameFull":"CITIGROUP",
+      "playerName":"CITIGROUP",
+      "marketCode":3
+   },
+   {
+      "playersCode":155,
+      "playerMarketCode":"77",
+      "playerNameFull":"CITIGROUP GMB CCTVM S.A.",
+      "playerName":"CITIGROUP",
+      "marketCode":1
+   },
+   {
+      "playersCode":155,
+      "playerMarketCode":"205",
+      "playerNameFull":"CITIGROUP GMB CCTVM S.A.",
+      "playerName":"CITIGROUP",
+      "marketCode":3
+   },
+   {
+      "playersCode":155,
+      "playerMarketCode":"77",
+      "playerNameFull":"CITIGROUP GMB CCTVM S.A.",
+      "playerName":"CITIGROUP",
+      "marketCode":6
+   },
+   {
+      "playersCode":216,
+      "playerMarketCode":"51",
+      "playerNameFull":"CITIGROUP GLOBAL MARKETS BR",
+      "playerName":"CITIGROUP GLOBAL MARKETS",
+      "marketCode":1
+   },
+   {
+      "playersCode":216,
+      "playerMarketCode":"51",
+      "playerNameFull":"CITIGROUP GLOBAL MARKETS BR",
+      "playerName":"CITIGROUP GLOBAL MARKETS",
+      "marketCode":3
+   },
+   {
+      "playersCode":216,
+      "playerMarketCode":"51",
+      "playerNameFull":"CITIGROUP GLOBAL MARKETS BR",
+      "playerName":"CITIGROUP GLOBAL MARKETS",
+      "marketCode":6
+   },
+   {
+      "playersCode":5098,
+      "playerMarketCode":"308",
+      "playerNameFull":"CLEAR CTVM LTDA",
+      "playerName":"CLEAR",
+      "marketCode":3
+   },
+   {
+      "playersCode":5098,
+      "playerMarketCode":"308",
+      "playerNameFull":"CLEAR CTVM LTDA",
+      "playerName":"CLEAR",
+      "marketCode":6
+   },
+   {
+      "playersCode":5098,
+      "playerMarketCode":"308",
+      "playerNameFull":"CLEAR CTVM LTDA",
+      "playerName":"CLEAR",
+      "marketCode":1
+   },
+   {
+      "playersCode":5168,
+      "playerMarketCode":"88",
+      "playerNameFull":"CM CAPITAL MARKETS",
+      "playerName":"CM CAPITAL",
+      "marketCode":3
+   },
+   {
+      "playersCode":5168,
+      "playerMarketCode":"88",
+      "playerNameFull":"CM CAPITAL MARKETS",
+      "playerName":"CM CAPITAL",
+      "marketCode":1
+   },
+   {
+      "playersCode":5168,
+      "playerMarketCode":"88",
+      "playerNameFull":"CM CAPITAL MARKETS",
+      "playerName":"CM CAPITAL",
+      "marketCode":6
+   },
+   {
+      "playersCode":135,
+      "playerMarketCode":"234",
+      "playerNameFull":"CODEPE CV S.A.",
+      "playerName":"CODEPE",
+      "marketCode":1
+   },
+   {
+      "playersCode":135,
+      "playerMarketCode":"234",
+      "playerNameFull":"CODEPE CV S.A.",
+      "playerName":"CODEPE",
+      "marketCode":6
+   },
+   {
+      "playersCode":136,
+      "playerMarketCode":"74",
+      "playerNameFull":"COINVALORES CCVM LTDA.",
+      "playerName":"COINVALORES",
+      "marketCode":3
+   },
+   {
+      "playersCode":136,
+      "playerMarketCode":"74",
+      "playerNameFull":"COINVALORES CCVM LTDA.",
+      "playerName":"COINVALORES",
+      "marketCode":1
+   },
+   {
+      "playersCode":136,
+      "playerMarketCode":"74",
+      "playerNameFull":"COINVALORES CCVM LTDA.",
+      "playerName":"COINVALORES",
+      "marketCode":6
+   },
+   {
+      "playersCode":291,
+      "playerMarketCode":"115",
+      "playerNameFull":"HENCORP COMMCOR CM LTDA",
+      "playerName":"COMMCOR",
+      "marketCode":1
+   },
+   {
+      "playersCode":291,
+      "playerMarketCode":"115",
+      "playerNameFull":"HENCORP COMMCOR CM LTDA",
+      "playerName":"COMMCOR",
+      "marketCode":3
+   },
+   {
+      "playersCode":138,
+      "playerMarketCode":"186",
+      "playerNameFull":"CORRETORA GERAL DE VC LTDA.",
+      "playerName":"CORRETORA GERAL",
+      "marketCode":1
+   },
+   {
+      "playersCode":138,
+      "playerMarketCode":"186",
+      "playerNameFull":"CORRETORA GERAL DE VC LTDA.",
+      "playerName":"CORRETORA GERAL",
+      "marketCode":6
+   },
+   {
+      "playersCode":140,
+      "playerMarketCode":"38",
+      "playerNameFull":"CORVAL CVM S.A.",
+      "playerName":"CORVAL",
+      "marketCode":6
+   },
+   {
+      "playersCode":140,
+      "playerMarketCode":"38",
+      "playerNameFull":"CORVAL CVM S.A.",
+      "playerName":"CORVAL",
+      "marketCode":1
+   },
+   {
+      "playersCode":306,
+      "playerMarketCode":"62",
+      "playerNameFull":"A COUTINHO CM LTDA",
+      "playerName":"COUTINHO",
+      "marketCode":3
+   },
+   {
+      "playersCode":196,
+      "playerMarketCode":"45",
+      "playerNameFull":"CREDIT SUISSE BRASIL S.A. CTVM",
+      "playerName":"CREDIT SUISSE",
+      "marketCode":6
+   },
+   {
+      "playersCode":196,
+      "playerMarketCode":"45",
+      "playerNameFull":"CREDIT SUISSE BRASIL S.A. CTVM",
+      "playerName":"CREDIT SUISSE",
+      "marketCode":3
+   },
+   {
+      "playersCode":196,
+      "playerMarketCode":"45",
+      "playerNameFull":"CREDIT SUISSE BRASIL S.A. CTVM",
+      "playerName":"CREDIT SUISSE",
+      "marketCode":1
+   },
+   {
+      "playersCode":141,
+      "playerMarketCode":"14",
+      "playerNameFull":"CRUZEIRO DO SUL S.A. CV",
+      "playerName":"CRUZEIRO DO SUL",
+      "marketCode":3
+   },
+   {
+      "playersCode":141,
+      "playerMarketCode":"14",
+      "playerNameFull":"CRUZEIRO DO SUL S.A. CV",
+      "playerName":"CRUZEIRO DO SUL",
+      "marketCode":1
+   },
+   {
+      "playersCode":141,
+      "playerMarketCode":"14",
+      "playerNameFull":"CRUZEIRO DO SUL S.A. CV",
+      "playerName":"CRUZEIRO DO SUL",
+      "marketCode":6
+   },
+   {
+      "playersCode":151,
+      "playerMarketCode":"95",
+      "playerNameFull":"CS HEDGING-GRIFFO CV S.A.",
+      "playerName":"CS HEDGING-GRIFFO",
+      "marketCode":1
+   },
+   {
+      "playersCode":151,
+      "playerMarketCode":"95",
+      "playerNameFull":"CS HEDGING-GRIFFO CV S.A.",
+      "playerName":"CS HEDGING-GRIFFO",
+      "marketCode":6
+   },
+   {
+      "playersCode":151,
+      "playerMarketCode":"95",
+      "playerNameFull":"CS HEDGING-GRIFFO CV S.A.",
+      "playerName":"CS HEDGING-GRIFFO",
+      "marketCode":3
+   },
+   {
+      "playersCode":307,
+      "playerMarketCode":"17",
+      "playerNameFull":"DELTA COMMODITIES CM E FUTUROS LTDA",
+      "playerName":"DELTA COMMODITIES",
+      "marketCode":3
+   },
+   {
+      "playersCode":197,
+      "playerMarketCode":"9",
+      "playerNameFull":"DEUTSCHE BANK CV S.A.",
+      "playerName":"DEUTSCHE",
+      "marketCode":1
+   },
+   {
+      "playersCode":197,
+      "playerMarketCode":"9",
+      "playerNameFull":"DEUTSCHE BANK CV S.A.",
+      "playerName":"DEUTSCHE",
+      "marketCode":6
+   },
+   {
+      "playersCode":197,
+      "playerMarketCode":"9",
+      "playerNameFull":"DEUTSCHE BANK CV S.A.",
+      "playerName":"DEUTSCHE",
+      "marketCode":3
+   },
+   {
+      "playersCode":1164,
+      "playerMarketCode":"9",
+      "playerNameFull":"DEUTSCHE BANK CV S.A",
+      "playerName":"DEUTSCHE BANK CV S.A",
+      "marketCode":3
+   },
+   {
+      "playersCode":198,
+      "playerMarketCode":"91",
+      "playerNameFull":"DIAS DE SOUZA VSC LTDA.",
+      "playerName":"DIAS DE SOUZA",
+      "marketCode":1
+   },
+   {
+      "playersCode":284,
+      "playerMarketCode":"133",
+      "playerNameFull":"DIBRAN DTVM LTDA",
+      "playerName":"DIBRAN",
+      "marketCode":3
+   },
+   {
+      "playersCode":142,
+      "playerMarketCode":"140",
+      "playerNameFull":"DIFERENCIAL CTVM S.A.",
+      "playerName":"DIFERENCIAL",
+      "marketCode":6
+   },
+   {
+      "playersCode":142,
+      "playerMarketCode":"140",
+      "playerNameFull":"DIFERENCIAL CTVM S.A.",
+      "playerName":"DIFERENCIAL",
+      "marketCode":1
+   },
+   {
+      "playersCode":285,
+      "playerMarketCode":"236",
+      "playerNameFull":"DIMARCO DTVM S/A",
+      "playerName":"DIMARCO",
+      "marketCode":3
+   },
+   {
+      "playersCode":143,
+      "playerMarketCode":"174",
+      "playerNameFull":"ELITE CCVM LTDA.",
+      "playerName":"ELITE",
+      "marketCode":1
+   },
+   {
+      "playersCode":143,
+      "playerMarketCode":"174",
+      "playerNameFull":"ELITE CCVM LTDA.",
+      "playerName":"ELITE",
+      "marketCode":6
+   },
+   {
+      "playersCode":143,
+      "playerMarketCode":"174",
+      "playerNameFull":"ELITE CCVM LTDA.",
+      "playerName":"ELITE",
+      "marketCode":3
+   },
+   {
+      "playersCode":305,
+      "playerMarketCode":"55",
+      "playerNameFull":"ESBORIOL PART. E EMPREENDIMENTOS LTDA ",
+      "playerName":"ESBORIOL",
+      "marketCode":3
+   },
+   {
+      "playersCode":146,
+      "playerMarketCode":"131",
+      "playerNameFull":"FATOR S.A. CV",
+      "playerName":"FATOR",
+      "marketCode":6
+   },
+   {
+      "playersCode":146,
+      "playerMarketCode":"131",
+      "playerNameFull":"FATOR S.A. CV",
+      "playerName":"FATOR",
+      "marketCode":3
+   },
+   {
+      "playersCode":146,
+      "playerMarketCode":"131",
+      "playerNameFull":"FATOR S.A. CV",
+      "playerName":"FATOR",
+      "marketCode":1
+   },
+   {
+      "playersCode":13630,
+      "playerMarketCode":"1130",
+      "playerNameFull":"FC STONE",
+      "playerName":"FC STONE",
+      "marketCode":1
+   },
+   {
+      "playersCode":13630,
+      "playerMarketCode":"1130",
+      "playerNameFull":"FC STONE",
+      "playerName":"FC STONE",
+      "marketCode":3
+   },
+   {
+      "playersCode":293,
+      "playerMarketCode":"105",
+      "playerNameFull":"FDR CM LTDA",
+      "playerName":"FDR",
+      "marketCode":3
+   },
+   {
+      "playersCode":199,
+      "playerMarketCode":"197",
+      "playerNameFull":"FORTE S.A. CCTVM",
+      "playerName":"FORTE",
+      "marketCode":1
+   },
+   {
+      "playersCode":308,
+      "playerMarketCode":"192",
+      "playerNameFull":"FUTURE PREMIUM CM LTDA ",
+      "playerName":"FUTURE",
+      "marketCode":3
+   },
+   {
+      "playersCode":1181,
+      "playerMarketCode":"734",
+      "playerNameFull":"GBM BRASIL DTVM S/A",
+      "playerName":"GBM BRASIL DTVM S/A",
+      "marketCode":3
+   },
+   {
+      "playersCode":1181,
+      "playerMarketCode":"734",
+      "playerNameFull":"GBM BRASIL DTVM S/A",
+      "playerName":"GBM BRASIL DTVM S/A",
+      "marketCode":1
+   },
+   {
+      "playersCode":283,
+      "playerMarketCode":"120",
+      "playerNameFull":"BRASIL PLURAL",
+      "playerName":"GENIAL",
+      "marketCode":1
+   },
+   {
+      "playersCode":283,
+      "playerMarketCode":"120",
+      "playerNameFull":"BRASIL PLURAL",
+      "playerName":"GENIAL",
+      "marketCode":6
+   },
+   {
+      "playersCode":283,
+      "playerMarketCode":"120",
+      "playerNameFull":"BRASIL PLURAL",
+      "playerName":"GENIAL",
+      "marketCode":3
+   },
+   {
+      "playersCode":148,
+      "playerMarketCode":"173",
+      "playerNameFull":"GERACAO FUTURO CV LTDA.",
+      "playerName":"GERACAO FUTURO",
+      "marketCode":1
+   },
+   {
+      "playersCode":148,
+      "playerMarketCode":"173",
+      "playerNameFull":"GERACAO FUTURO CV LTDA.",
+      "playerName":"GERACAO FUTURO",
+      "marketCode":6
+   },
+   {
+      "playersCode":200,
+      "playerMarketCode":"192",
+      "playerNameFull":"GERALDO CORREA CVM S.A.",
+      "playerName":"GERALDO CORREA",
+      "marketCode":3
+   },
+   {
+      "playersCode":200,
+      "playerMarketCode":"192",
+      "playerNameFull":"GERALDO CORREA CVM S.A.",
+      "playerName":"GERALDO CORREA",
+      "marketCode":1
+   },
+   {
+      "playersCode":339,
+      "playerMarketCode":"238",
+      "playerNameFull":"GOLDMAN SACHS DO BRASIL CTVM",
+      "playerName":"GOLDMAN SACHS",
+      "marketCode":1
+   },
+   {
+      "playersCode":339,
+      "playerMarketCode":"238",
+      "playerNameFull":"GOLDMAN SACHS DO BRASIL CTVM",
+      "playerName":"GOLDMAN SACHS",
+      "marketCode":6
+   },
+   {
+      "playersCode":339,
+      "playerMarketCode":"238",
+      "playerNameFull":"GOLDMAN SACHS DO BRASIL CTVM",
+      "playerName":"GOLDMAN SACHS",
+      "marketCode":3
+   },
+   {
+      "playersCode":149,
+      "playerMarketCode":"227",
+      "playerNameFull":"GRADUAL CCTVM LTDA.",
+      "playerName":"GRADUAL",
+      "marketCode":3
+   },
+   {
+      "playersCode":149,
+      "playerMarketCode":"227",
+      "playerNameFull":"GRADUAL CCTVM LTDA.",
+      "playerName":"GRADUAL",
+      "marketCode":6
+   },
+   {
+      "playersCode":149,
+      "playerMarketCode":"227",
+      "playerNameFull":"GRADUAL CCTVM LTDA.",
+      "playerName":"GRADUAL",
+      "marketCode":1
+   },
+   {
+      "playersCode":153,
+      "playerMarketCode":"15",
+      "playerNameFull":"INDUSVAL S.A. CTVM",
+      "playerName":"GUIDE",
+      "marketCode":1
+   },
+   {
+      "playersCode":153,
+      "playerMarketCode":"15",
+      "playerNameFull":"INDUSVAL S.A. CTVM",
+      "playerName":"GUIDE",
+      "marketCode":3
+   },
+   {
+      "playersCode":153,
+      "playerMarketCode":"15",
+      "playerNameFull":"INDUSVAL S.A. CTVM",
+      "playerName":"GUIDE",
+      "marketCode":6
+   },
+   {
+      "playersCode":132,
+      "playerMarketCode":"54",
+      "playerNameFull":"HAITONG SECURITIES DO BRASIL CCVM S.A.",
+      "playerName":"HAITONG",
+      "marketCode":3
+   },
+   {
+      "playersCode":132,
+      "playerMarketCode":"54",
+      "playerNameFull":"HAITONG SECURITIES DO BRASIL CCVM S.A.",
+      "playerName":"HAITONG",
+      "marketCode":6
+   },
+   {
+      "playersCode":132,
+      "playerMarketCode":"54",
+      "playerNameFull":"HAITONG SECURITIES DO BRASIL CCVM S.A.",
+      "playerName":"HAITONG",
+      "marketCode":1
+   },
+   {
+      "playersCode":150,
+      "playerMarketCode":"232",
+      "playerNameFull":"H.H. PICCHIONI S.A. CCVM",
+      "playerName":"H.H. PICCHIONI",
+      "marketCode":6
+   },
+   {
+      "playersCode":150,
+      "playerMarketCode":"232",
+      "playerNameFull":"H.H. PICCHIONI S.A. CCVM",
+      "playerName":"H.H. PICCHIONI",
+      "marketCode":1
+   },
+   {
+      "playersCode":152,
+      "playerMarketCode":"70",
+      "playerNameFull":"HSBC CTVM S.A.",
+      "playerName":"HSBC",
+      "marketCode":6
+   },
+   {
+      "playersCode":152,
+      "playerMarketCode":"70",
+      "playerNameFull":"HSBC CTVM S.A.",
+      "playerName":"HSBC",
+      "marketCode":1
+   },
+   {
+      "playersCode":152,
+      "playerMarketCode":"70",
+      "playerNameFull":"HSBC CTVM S.A.",
+      "playerName":"HSBC",
+      "marketCode":3
+   },
+   {
+      "playersCode":342,
+      "playerMarketCode":"735",
+      "playerNameFull":"ICAP DO BRASIL CTVM LTDA",
+      "playerName":"ICAP",
+      "marketCode":1
+   },
+   {
+      "playersCode":342,
+      "playerMarketCode":"735",
+      "playerNameFull":"ICAP DO BRASIL CTVM LTDA",
+      "playerName":"ICAP",
+      "marketCode":6
+   },
+   {
+      "playersCode":342,
+      "playerMarketCode":"735",
+      "playerNameFull":"ICAP DO BRASIL CTVM LTDA",
+      "playerName":"ICAP",
+      "marketCode":3
+   },
+   {
+      "playersCode":13883,
+      "playerMarketCode":"1618",
+      "playerNameFull":"IDEAL",
+      "playerName":"IDEAL",
+      "marketCode":1
+   },
+   {
+      "playersCode":13883,
+      "playerMarketCode":"1618",
+      "playerNameFull":"IDEAL",
+      "playerName":"IDEAL",
+      "marketCode":3
+   },
+   {
+      "playersCode":201,
+      "playerMarketCode":"41",
+      "playerNameFull":"ING CCT S.A.",
+      "playerName":"ING",
+      "marketCode":1
+   },
+   {
+      "playersCode":201,
+      "playerMarketCode":"41",
+      "playerNameFull":"ING CCT S.A.",
+      "playerName":"ING",
+      "marketCode":3
+   },
+   {
+      "playersCode":13869,
+      "playerMarketCode":"1099",
+      "playerNameFull":"INTER",
+      "playerName":"INTER",
+      "marketCode":1
+   },
+   {
+      "playersCode":14973,
+      "playerMarketCode":"1099",
+      "playerNameFull":"INTER DTVM LTDA",
+      "playerName":"INTER",
+      "marketCode":3
+   },
+   {
+      "playersCode":147,
+      "playerMarketCode":"76",
+      "playerNameFull":"INTERBOLSA DO BRASIL CCTVM",
+      "playerName":"INTERBOLSA",
+      "marketCode":1
+   },
+   {
+      "playersCode":147,
+      "playerMarketCode":"76",
+      "playerNameFull":"INTERBOLSA DO BRASIL CCTVM",
+      "playerName":"INTERBOLSA",
+      "marketCode":3
+   },
+   {
+      "playersCode":147,
+      "playerMarketCode":"76",
+      "playerNameFull":"INTERBOLSA DO BRASIL CCTVM",
+      "playerName":"INTERBOLSA",
+      "marketCode":6
+   },
+   {
+      "playersCode":286,
+      "playerMarketCode":"104",
+      "playerNameFull":"DISTRIBUIDORA INTERCAP TVM LTDA",
+      "playerName":"INTERCAP",
+      "marketCode":3
+   },
+   {
+      "playersCode":154,
+      "playerMarketCode":"239",
+      "playerNameFull":"INTERFLOAT HZ CCTVM LTDA.",
+      "playerName":"INTERFLOAT",
+      "marketCode":3
+   },
+   {
+      "playersCode":154,
+      "playerMarketCode":"239",
+      "playerNameFull":"INTERFLOAT HZ CCTVM LTDA.",
+      "playerName":"INTERFLOAT",
+      "marketCode":6
+   },
+   {
+      "playersCode":154,
+      "playerMarketCode":"239",
+      "playerNameFull":"INTERFLOAT HZ CCTVM LTDA.",
+      "playerName":"INTERFLOAT",
+      "marketCode":1
+   },
+   {
+      "playersCode":156,
+      "playerMarketCode":"5",
+      "playerNameFull":"ISOLDI S.A. CVM",
+      "playerName":"ISOLDI",
+      "marketCode":3
+   },
+   {
+      "playersCode":156,
+      "playerMarketCode":"5",
+      "playerNameFull":"ISOLDI S.A. CVM",
+      "playerName":"ISOLDI",
+      "marketCode":1
+   },
+   {
+      "playersCode":156,
+      "playerMarketCode":"5",
+      "playerNameFull":"ISOLDI S.A. CVM",
+      "playerName":"ISOLDI",
+      "marketCode":6
+   },
+   {
+      "playersCode":157,
+      "playerMarketCode":"114",
+      "playerNameFull":"ITAU CV S/A",
+      "playerName":"ITAU",
+      "marketCode":6
+   },
+   {
+      "playersCode":157,
+      "playerMarketCode":"114",
+      "playerNameFull":"ITAU CV S/A",
+      "playerName":"ITAU",
+      "marketCode":1
+   },
+   {
+      "playersCode":157,
+      "playerMarketCode":"114",
+      "playerNameFull":"ITAU CV S/A",
+      "playerName":"ITAU",
+      "marketCode":3
+   },
+   {
+      "playersCode":299,
+      "playerMarketCode":"200",
+      "playerNameFull":"ITAUBANK DTVM S/A",
+      "playerName":"ITAUBANK",
+      "marketCode":3
+   },
+   {
+      "playersCode":158,
+      "playerMarketCode":"16",
+      "playerNameFull":"J. P. MORGAN CCVM S.A.",
+      "playerName":"JP MORGAN",
+      "marketCode":1
+   },
+   {
+      "playersCode":158,
+      "playerMarketCode":"16",
+      "playerNameFull":"J. P. MORGAN CCVM S.A.",
+      "playerName":"JP MORGAN",
+      "marketCode":3
+   },
+   {
+      "playersCode":158,
+      "playerMarketCode":"16",
+      "playerNameFull":"J. P. MORGAN CCVM S.A.",
+      "playerName":"JP MORGAN",
+      "marketCode":6
+   },
+   {
+      "playersCode":159,
+      "playerMarketCode":"236",
+      "playerNameFull":"J. SAFRA CVC LTDA.",
+      "playerName":"J. SAFRA",
+      "marketCode":6
+   },
+   {
+      "playersCode":159,
+      "playerMarketCode":"236",
+      "playerNameFull":"J. SAFRA CVC LTDA.",
+      "playerName":"J. SAFRA",
+      "marketCode":1
+   },
+   {
+      "playersCode":144,
+      "playerMarketCode":"33",
+      "playerNameFull":"ESC. LEROSA S.A. CV",
+      "playerName":"LEROSA",
+      "marketCode":1
+   },
+   {
+      "playersCode":144,
+      "playerMarketCode":"33",
+      "playerNameFull":"ESC. LEROSA S.A. CV",
+      "playerName":"LEROSA",
+      "marketCode":6
+   },
+   {
+      "playersCode":144,
+      "playerMarketCode":"33",
+      "playerNameFull":"ESC. LEROSA S.A. CV",
+      "playerName":"LEROSA",
+      "marketCode":3
+   },
+   {
+      "playersCode":202,
+      "playerMarketCode":"68",
+      "playerNameFull":"LEVYCAM CCV LTDA.",
+      "playerName":"LEVYCAM",
+      "marketCode":1
+   },
+   {
+      "playersCode":290,
+      "playerMarketCode":"148",
+      "playerNameFull":"LOPEZ LEON DERIVATIVOS - CM S/A",
+      "playerName":"LOPEZ LEON",
+      "marketCode":3
+   },
+   {
+      "playersCode":160,
+      "playerMarketCode":"1",
+      "playerNameFull":"MAGLIANO S/A CCVM",
+      "playerName":"MAGLIANO",
+      "marketCode":6
+   },
+   {
+      "playersCode":160,
+      "playerMarketCode":"1",
+      "playerNameFull":"MAGLIANO S/A CCVM",
+      "playerName":"MAGLIANO",
+      "marketCode":3
+   },
+   {
+      "playersCode":160,
+      "playerMarketCode":"1",
+      "playerNameFull":"MAGLIANO S/A CCVM",
+      "playerName":"MAGLIANO",
+      "marketCode":1
+   },
+   {
+      "playersCode":204,
+      "playerMarketCode":"219",
+      "playerNameFull":"MANCHESTER S.A. CCT",
+      "playerName":"MANCHESTER",
+      "marketCode":1
+   },
+   {
+      "playersCode":294,
+      "playerMarketCode":"83",
+      "playerNameFull":"MAXIMA S/A CTVM",
+      "playerName":"MAXIMA",
+      "marketCode":1
+   },
+   {
+      "playersCode":294,
+      "playerMarketCode":"83",
+      "playerNameFull":"MAXIMA S/A CTVM",
+      "playerName":"MAXIMA",
+      "marketCode":3
+   },
+   {
+      "playersCode":14964,
+      "playerMarketCode":"106",
+      "playerNameFull":"MERC. DO BRASIL COR. S.A. CTVM",
+      "playerName":"MERCANTIL",
+      "marketCode":3
+   },
+   {
+      "playersCode":161,
+      "playerMarketCode":"106",
+      "playerNameFull":"MERC. DO BRASIL COR. S.A. CTVM",
+      "playerName":"MERC. DO BRASIL",
+      "marketCode":6
+   },
+   {
+      "playersCode":161,
+      "playerMarketCode":"106",
+      "playerNameFull":"MERC. DO BRASIL COR. S.A. CTVM",
+      "playerName":"MERC. DO BRASIL",
+      "marketCode":1
+   },
+   {
+      "playersCode":205,
+      "playerMarketCode":"13",
+      "playerNameFull":"MERRILL LYNCH S.A. CTVM",
+      "playerName":"MERRILL LYNCH",
+      "marketCode":3
+   },
+   {
+      "playersCode":205,
+      "playerMarketCode":"13",
+      "playerNameFull":"MERRILL LYNCH S.A. CTVM",
+      "playerName":"MERRILL LYNCH",
+      "marketCode":1
+   },
+   {
+      "playersCode":1044,
+      "playerMarketCode":"262",
+      "playerNameFull":"MIRAE ASSET SECURITIES BRASIL",
+      "playerName":"MIRAE",
+      "marketCode":3
+   },
+   {
+      "playersCode":1044,
+      "playerMarketCode":"262",
+      "playerNameFull":"MIRAE ASSET SECURITIES BRASIL",
+      "playerName":"MIRAE",
+      "marketCode":6
+   },
+   {
+      "playersCode":1044,
+      "playerMarketCode":"262",
+      "playerNameFull":"MIRAE ASSET SECURITIES BRASIL",
+      "playerName":"MIRAE",
+      "marketCode":1
+   },
+   {
+      "playersCode":13627,
+      "playerMarketCode":"1982",
+      "playerNameFull":"MODAL DTVM",
+      "playerName":"MODAL",
+      "marketCode":3
+   },
+   {
+      "playersCode":13626,
+      "playerMarketCode":"1982",
+      "playerNameFull":"MODAL DTVM",
+      "playerName":"MODAL",
+      "marketCode":1
+   },
+   {
+      "playersCode":206,
+      "playerMarketCode":"40",
+      "playerNameFull":"MORGAN STANLEY D. W. CTVM S.A.",
+      "playerName":"MORGAN STANLEY",
+      "marketCode":3
+   },
+   {
+      "playersCode":206,
+      "playerMarketCode":"40",
+      "playerNameFull":"MORGAN STANLEY D. W. CTVM S.A.",
+      "playerName":"MORGAN STANLEY",
+      "marketCode":1
+   },
+   {
+      "playersCode":162,
+      "playerMarketCode":"181",
+      "playerNameFull":"MUNDINVEST S.A. CCVM",
+      "playerName":"MUNDINVEST",
+      "marketCode":1
+   },
+   {
+      "playersCode":162,
+      "playerMarketCode":"181",
+      "playerNameFull":"MUNDINVEST S.A. CCVM",
+      "playerName":"MUNDINVEST",
+      "marketCode":3
+   },
+   {
+      "playersCode":162,
+      "playerMarketCode":"181",
+      "playerNameFull":"MUNDINVEST S.A. CCVM",
+      "playerName":"MUNDINVEST",
+      "marketCode":6
+   },
+   {
+      "playersCode":137,
+      "playerMarketCode":"23",
+      "playerNameFull":"NECTON",
+      "playerName":"NECTON",
+      "marketCode":1
+   },
+   {
+      "playersCode":137,
+      "playerMarketCode":"23",
+      "playerNameFull":"NECTON",
+      "playerName":"NECTON",
+      "marketCode":6
+   },
+   {
+      "playersCode":137,
+      "playerMarketCode":"23",
+      "playerNameFull":"NECTON",
+      "playerName":"NECTON",
+      "marketCode":3
+   },
+   {
+      "playersCode":13584,
+      "playerMarketCode":"93",
+      "playerNameFull":"NOVA FUTURA CTVM LTDA",
+      "playerName":"NOVA FUTURA",
+      "marketCode":1
+   },
+   {
+      "playersCode":292,
+      "playerMarketCode":"564",
+      "playerNameFull":"NOVA FUTURA CTVM LTDA",
+      "playerName":"NOVA FUTURA",
+      "marketCode":1
+   },
+   {
+      "playersCode":292,
+      "playerMarketCode":"93",
+      "playerNameFull":"NOVA FUTURA CTVM LTDA",
+      "playerName":"NOVA FUTURA",
+      "marketCode":3
+   },
+   {
+      "playersCode":163,
+      "playerMarketCode":"63",
+      "playerNameFull":"NOVINVEST CVM LTDA.",
+      "playerName":"NOVINVEST",
+      "marketCode":1
+   },
+   {
+      "playersCode":163,
+      "playerMarketCode":"63",
+      "playerNameFull":"NOVINVEST CVM LTDA.",
+      "playerName":"NOVINVEST",
+      "marketCode":3
+   },
+   {
+      "playersCode":163,
+      "playerMarketCode":"63",
+      "playerNameFull":"NOVINVEST CVM LTDA.",
+      "playerName":"NOVINVEST",
+      "marketCode":6
+   },
+   {
+      "playersCode":207,
+      "playerMarketCode":"237",
+      "playerNameFull":"OLIVEIRA FRANCO SCVC LTDA.",
+      "playerName":"OLIVEIRA FRANCO",
+      "marketCode":6
+   },
+   {
+      "playersCode":207,
+      "playerMarketCode":"237",
+      "playerNameFull":"OLIVEIRA FRANCO SCVC LTDA.",
+      "playerName":"OLIVEIRA FRANCO",
+      "marketCode":1
+   },
+   {
+      "playersCode":208,
+      "playerMarketCode":"175",
+      "playerNameFull":"OMAR CAMARGO CCV LTDA.",
+      "playerName":"OMAR CAMARGO",
+      "marketCode":1
+   },
+   {
+      "playersCode":13882,
+      "playerMarketCode":"3701",
+      "playerNameFull":"ORAMA",
+      "playerName":"ORAMA",
+      "marketCode":3
+   },
+   {
+      "playersCode":13868,
+      "playerMarketCode":"3701",
+      "playerNameFull":"ORAMA",
+      "playerName":"ORAMA",
+      "marketCode":1
+   },
+   {
+      "playersCode":280,
+      "playerMarketCode":"736",
+      "playerNameFull":"PAX CVC LTDA.",
+      "playerName":"PAX",
+      "marketCode":1
+   },
+   {
+      "playersCode":165,
+      "playerMarketCode":"35",
+      "playerNameFull":"PETRA PERSONAL TRADER CTVM S.A",
+      "playerName":"PETRA",
+      "marketCode":6
+   },
+   {
+      "playersCode":165,
+      "playerMarketCode":"35",
+      "playerNameFull":"PETRA PERSONAL TRADER CTVM S.A",
+      "playerName":"PETRA",
+      "marketCode":1
+   },
+   {
+      "playersCode":14869,
+      "playerMarketCode":"3142",
+      "playerNameFull":"PI",
+      "playerName":"PI",
+      "marketCode":3
+   },
+   {
+      "playersCode":14869,
+      "playerMarketCode":"3142",
+      "playerNameFull":"PI",
+      "playerName":"PI",
+      "marketCode":1
+   },
+   {
+      "playersCode":14869,
+      "playerMarketCode":"3142",
+      "playerNameFull":"PI",
+      "playerName":"PI",
+      "marketCode":6
+   },
+   {
+      "playersCode":296,
+      "playerMarketCode":"94",
+      "playerNameFull":"PIONEER CM E FUTUROS LTDA",
+      "playerName":"PIONEER",
+      "marketCode":3
+   },
+   {
+      "playersCode":167,
+      "playerMarketCode":"129",
+      "playerNameFull":"PLANNER CV S.A",
+      "playerName":"PLANNER",
+      "marketCode":1
+   },
+   {
+      "playersCode":167,
+      "playerMarketCode":"129",
+      "playerNameFull":"PLANNER CV S.A",
+      "playerName":"PLANNER",
+      "marketCode":6
+   },
+   {
+      "playersCode":167,
+      "playerMarketCode":"129",
+      "playerNameFull":"PLANNER CV S.A",
+      "playerName":"PLANNER",
+      "marketCode":3
+   },
+   {
+      "playersCode":209,
+      "playerMarketCode":"67",
+      "playerNameFull":"POLINVEST CCTVM LTDA.",
+      "playerName":"POLINVEST",
+      "marketCode":1
+   },
+   {
+      "playersCode":168,
+      "playerMarketCode":"189",
+      "playerNameFull":"PRIME S.A. CCV",
+      "playerName":"PRIME",
+      "marketCode":1
+   },
+   {
+      "playersCode":168,
+      "playerMarketCode":"189",
+      "playerNameFull":"PRIME S.A. CCV",
+      "playerName":"PRIME",
+      "marketCode":6
+   },
+   {
+      "playersCode":169,
+      "playerMarketCode":"150",
+      "playerNameFull":"PROSPER S.A. CVC",
+      "playerName":"PROSPER",
+      "marketCode":3
+   },
+   {
+      "playersCode":169,
+      "playerMarketCode":"150",
+      "playerNameFull":"PROSPER S.A. CVC",
+      "playerName":"PROSPER",
+      "marketCode":1
+   },
+   {
+      "playersCode":169,
+      "playerMarketCode":"150",
+      "playerNameFull":"PROSPER S.A. CVC",
+      "playerName":"PROSPER",
+      "marketCode":6
+   },
+   {
+      "playersCode":210,
+      "playerMarketCode":"229",
+      "playerNameFull":"QUALITY CCTVM S.A.",
+      "playerName":"QUALITY",
+      "marketCode":1
+   },
+   {
+      "playersCode":14071,
+      "playerMarketCode":"1089",
+      "playerNameFull":"RB CAPITAL.",
+      "playerName":"RB",
+      "marketCode":1
+   },
+   {
+      "playersCode":295,
+      "playerMarketCode":"92",
+      "playerNameFull":"RENASCENCA DTVM LTDA",
+      "playerName":"RENASCENCA",
+      "marketCode":6
+   },
+   {
+      "playersCode":295,
+      "playerMarketCode":"92",
+      "playerNameFull":"RENASCENCA DTVM LTDA",
+      "playerName":"RENASCENCA",
+      "marketCode":3
+   },
+   {
+      "playersCode":295,
+      "playerMarketCode":"92",
+      "playerNameFull":"RENASCENCA DTVM LTDA",
+      "playerName":"RENASCENCA",
+      "marketCode":1
+   },
+   {
+      "playersCode":1129,
+      "playerMarketCode":"386",
+      "playerNameFull":"OCTO CTVM S/A",
+      "playerName":"RICO",
+      "marketCode":1
+   },
+   {
+      "playersCode":1129,
+      "playerMarketCode":"386",
+      "playerNameFull":"OCTO CTVM S/A",
+      "playerName":"RICO",
+      "marketCode":3
+   },
+   {
+      "playersCode":1129,
+      "playerMarketCode":"386",
+      "playerNameFull":"OCTO CTVM S/A",
+      "playerName":"RICO",
+      "marketCode":6
+   },
+   {
+      "playersCode":170,
+      "playerMarketCode":"194",
+      "playerNameFull":"RURAL CTVM S.A.",
+      "playerName":"RURAL",
+      "marketCode":6
+   },
+   {
+      "playersCode":170,
+      "playerMarketCode":"194",
+      "playerNameFull":"RURAL CTVM S.A.",
+      "playerName":"RURAL",
+      "marketCode":1
+   },
+   {
+      "playersCode":145,
+      "playerMarketCode":"157",
+      "playerNameFull":"ESCRITORIO RUY LAGE SCT LTDA.",
+      "playerName":"RUY LAGE",
+      "marketCode":1
+   },
+   {
+      "playersCode":145,
+      "playerMarketCode":"157",
+      "playerNameFull":"ESCRITORIO RUY LAGE SCT LTDA.",
+      "playerName":"RUY LAGE",
+      "marketCode":6
+   },
+   {
+      "playersCode":171,
+      "playerMarketCode":"59",
+      "playerNameFull":"SAFRA CVC LTDA.",
+      "playerName":"SAFRA",
+      "marketCode":3
+   },
+   {
+      "playersCode":171,
+      "playerMarketCode":"59",
+      "playerNameFull":"SAFRA CVC LTDA.",
+      "playerName":"SAFRA",
+      "marketCode":6
+   },
+   {
+      "playersCode":171,
+      "playerMarketCode":"59",
+      "playerNameFull":"SAFRA CVC LTDA.",
+      "playerName":"SAFRA",
+      "marketCode":1
+   },
+   {
+      "playersCode":125,
+      "playerMarketCode":"27",
+      "playerNameFull":"SANTANDER S.A. CCT",
+      "playerName":"SANTANDER",
+      "marketCode":1
+   },
+   {
+      "playersCode":125,
+      "playerMarketCode":"27",
+      "playerNameFull":"SANTANDER S.A. CCT",
+      "playerName":"SANTANDER",
+      "marketCode":3
+   },
+   {
+      "playersCode":125,
+      "playerMarketCode":"27",
+      "playerNameFull":"SANTANDER S.A. CCT",
+      "playerName":"SANTANDER",
+      "marketCode":6
+   },
+   {
+      "playersCode":172,
+      "playerMarketCode":"78",
+      "playerNameFull":"SANTANDER BRASIL S.A. CTVM",
+      "playerName":"SANTANDER BRASIL",
+      "marketCode":6
+   },
+   {
+      "playersCode":172,
+      "playerMarketCode":"78",
+      "playerNameFull":"SANTANDER BRASIL S.A. CTVM",
+      "playerName":"SANTANDER BRASIL",
+      "marketCode":3
+   },
+   {
+      "playersCode":172,
+      "playerMarketCode":"78",
+      "playerNameFull":"SANTANDER BRASIL S.A. CTVM",
+      "playerName":"SANTANDER BRASIL",
+      "marketCode":1
+   },
+   {
+      "playersCode":173,
+      "playerMarketCode":"71",
+      "playerNameFull":"SAO PAULO CV LTDA.",
+      "playerName":"SAO PAULO",
+      "marketCode":1
+   },
+   {
+      "playersCode":173,
+      "playerMarketCode":"71",
+      "playerNameFull":"SAO PAULO CV LTDA.",
+      "playerName":"SAO PAULO",
+      "marketCode":6
+   },
+   {
+      "playersCode":341,
+      "playerMarketCode":"997",
+      "playerName":"SCALPER 997",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"374",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"376",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"356",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"312",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"290",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"313",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"289",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"288",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"287",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"353",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"285",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"284",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"283",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"282",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"352",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"280",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"370",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"315",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"369",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"368",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"367",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"366",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"365",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"316",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"317",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"364",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"363",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"362",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"378",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"377",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"400",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"399",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"318",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"319",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"398",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"396",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"394",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"393",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"392",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"320",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"321",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"322",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"323",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"279",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"325",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"326",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"358",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"328",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"329",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"330",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"359",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"332",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"333",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"334",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"335",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"336",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"337",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"338",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"339",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"360",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"391",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"341",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"342",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"343",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"344",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"345",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"346",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"347",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"348",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"349",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"390",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"350",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"361",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"389",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"388",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"387",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"385",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"384",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"383",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"291",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"292",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"293",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"294",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"295",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"296",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"297",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"354",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"299",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"300",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"301",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"302",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"303",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"355",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"305",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"306",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"307",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"309",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"310",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"382",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"381",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"380",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"372",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"373",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"375",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"379",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":5169,
+      "playerMarketCode":"371",
+      "playerNameFull":"SCALPER",
+      "playerName":"SCALPER BMF",
+      "marketCode":3
+   },
+   {
+      "playersCode":174,
+      "playerMarketCode":"34",
+      "playerNameFull":"SCHAHIN CCVM S.A.",
+      "playerName":"SCHAHIN",
+      "marketCode":3
+   },
+   {
+      "playersCode":174,
+      "playerMarketCode":"34",
+      "playerNameFull":"SCHAHIN CCVM S.A.",
+      "playerName":"SCHAHIN",
+      "marketCode":1
+   },
+   {
+      "playersCode":174,
+      "playerMarketCode":"34",
+      "playerNameFull":"SCHAHIN CCVM S.A.",
+      "playerName":"SCHAHIN",
+      "marketCode":6
+   },
+   {
+      "playersCode":211,
+      "playerMarketCode":"191",
+      "playerNameFull":"SENSO CCVM S.A.",
+      "playerName":"SENSO",
+      "marketCode":6
+   },
+   {
+      "playersCode":211,
+      "playerMarketCode":"191",
+      "playerNameFull":"SENSO CCVM S.A.",
+      "playerName":"SENSO",
+      "marketCode":1
+   },
+   {
+      "playersCode":175,
+      "playerMarketCode":"187",
+      "playerNameFull":"SITA SCCVM S.A.",
+      "playerName":"SITA",
+      "marketCode":6
+   },
+   {
+      "playersCode":175,
+      "playerMarketCode":"187",
+      "playerNameFull":"SITA SCCVM S.A.",
+      "playerName":"SITA",
+      "marketCode":1
+   },
+   {
+      "playersCode":176,
+      "playerMarketCode":"110",
+      "playerNameFull":"SLW CVC LTDA.",
+      "playerName":"SLW",
+      "marketCode":3
+   },
+   {
+      "playersCode":176,
+      "playerMarketCode":"110",
+      "playerNameFull":"SLW CVC LTDA.",
+      "playerName":"SLW",
+      "marketCode":1
+   },
+   {
+      "playersCode":176,
+      "playerMarketCode":"110",
+      "playerNameFull":"SLW CVC LTDA.",
+      "playerName":"SLW",
+      "marketCode":6
+   },
+   {
+      "playersCode":212,
+      "playerMarketCode":"64",
+      "playerNameFull":"SOCIETE GENERALE S.A. CCTVM",
+      "playerName":"SOCIETE GENERALE",
+      "marketCode":1
+   },
+   {
+      "playersCode":177,
+      "playerMarketCode":"58",
+      "playerNameFull":"SOCOPA SC PAULISTA S.A.",
+      "playerName":"SOCOPA",
+      "marketCode":3
+   },
+   {
+      "playersCode":177,
+      "playerMarketCode":"58",
+      "playerNameFull":"SOCOPA SC PAULISTA S.A.",
+      "playerName":"SOCOPA",
+      "marketCode":1
+   },
+   {
+      "playersCode":177,
+      "playerMarketCode":"58",
+      "playerNameFull":"SOCOPA SC PAULISTA S.A.",
+      "playerName":"SOCOPA",
+      "marketCode":6
+   },
+   {
+      "playersCode":178,
+      "playerMarketCode":"47",
+      "playerNameFull":"SOLIDEZ CCTVM LTDA.",
+      "playerName":"SOLIDEZ",
+      "marketCode":3
+   },
+   {
+      "playersCode":178,
+      "playerMarketCode":"47",
+      "playerNameFull":"SOLIDEZ CCTVM LTDA.",
+      "playerName":"SOLIDEZ",
+      "marketCode":1
+   },
+   {
+      "playersCode":178,
+      "playerMarketCode":"47",
+      "playerNameFull":"SOLIDEZ CCTVM LTDA.",
+      "playerName":"SOLIDEZ",
+      "marketCode":6
+   },
+   {
+      "playersCode":1052,
+      "playerMarketCode":"47",
+      "playerNameFull":"SOLIDEZ CCTVM",
+      "playerName":"SOLIDEZ CCTVM",
+      "marketCode":6
+   },
+   {
+      "playersCode":1052,
+      "playerMarketCode":"47",
+      "playerNameFull":"SOLIDEZ CCTVM",
+      "playerName":"SOLIDEZ CCTVM",
+      "marketCode":3
+   },
+   {
+      "playersCode":179,
+      "playerMarketCode":"177",
+      "playerNameFull":"SOLIDUS S.A. CCVM",
+      "playerName":"SOLIDUS",
+      "marketCode":1
+   },
+   {
+      "playersCode":179,
+      "playerMarketCode":"177",
+      "playerNameFull":"SOLIDUS S.A. CCVM",
+      "playerName":"SOLIDUS",
+      "marketCode":6
+   },
+   {
+      "playersCode":139,
+      "playerMarketCode":"2",
+      "playerNameFull":"SOUZA BARROS CT S.A.",
+      "playerName":"SOUZA BARROS",
+      "marketCode":6
+   },
+   {
+      "playersCode":139,
+      "playerMarketCode":"2",
+      "playerNameFull":"SOUZA BARROS CT S.A.",
+      "playerName":"SOUZA BARROS",
+      "marketCode":3
+   },
+   {
+      "playersCode":139,
+      "playerMarketCode":"2",
+      "playerNameFull":"SOUZA BARROS CT S.A.",
+      "playerName":"SOUZA BARROS",
+      "marketCode":1
+   },
+   {
+      "playersCode":180,
+      "playerMarketCode":"10",
+      "playerNameFull":"SPINELLI S.A. CVMC",
+      "playerName":"SPINELLI",
+      "marketCode":6
+   },
+   {
+      "playersCode":180,
+      "playerMarketCode":"10",
+      "playerNameFull":"SPINELLI S.A. CVMC",
+      "playerName":"SPINELLI",
+      "marketCode":1
+   },
+   {
+      "playersCode":180,
+      "playerMarketCode":"10",
+      "playerNameFull":"SPINELLI S.A. CVMC",
+      "playerName":"SPINELLI",
+      "marketCode":3
+   },
+   {
+      "playersCode":181,
+      "playerMarketCode":"75",
+      "playerNameFull":"TALARICO CCTM LTDA.",
+      "playerName":"TALARICO",
+      "marketCode":1
+   },
+   {
+      "playersCode":181,
+      "playerMarketCode":"75",
+      "playerNameFull":"TALARICO CCTM LTDA.",
+      "playerName":"TALARICO",
+      "marketCode":6
+   },
+   {
+      "playersCode":182,
+      "playerMarketCode":"99",
+      "playerNameFull":"TENDENCIA CCTVM LTDA.",
+      "playerName":"TENDENCIA",
+      "marketCode":6
+   },
+   {
+      "playersCode":182,
+      "playerMarketCode":"99",
+      "playerNameFull":"TENDENCIA CCTVM LTDA.",
+      "playerName":"TENDENCIA",
+      "marketCode":3
+   },
+   {
+      "playersCode":182,
+      "playerMarketCode":"99",
+      "playerNameFull":"TENDENCIA CCTVM LTDA.",
+      "playerName":"TENDENCIA",
+      "marketCode":1
+   },
+   {
+      "playersCode":300,
+      "playerMarketCode":"107",
+      "playerNameFull":"TERRA INVESTIMENTOS CM S/A",
+      "playerName":"TERRA",
+      "marketCode":1
+   },
+   {
+      "playersCode":300,
+      "playerMarketCode":"107",
+      "playerNameFull":"TERRA INVESTIMENTOS CM S/A",
+      "playerName":"TERRA",
+      "marketCode":3
+   },
+   {
+      "playersCode":183,
+      "playerMarketCode":"130",
+      "playerNameFull":"THECA CCTVM LTDA",
+      "playerName":"THECA",
+      "marketCode":1
+   },
+   {
+      "playersCode":183,
+      "playerMarketCode":"124",
+      "playerNameFull":"THECA CCTVM LTDA",
+      "playerName":"THECA",
+      "marketCode":3
+   },
+   {
+      "playersCode":183,
+      "playerMarketCode":"130",
+      "playerNameFull":"THECA CCTVM LTDA",
+      "playerName":"THECA",
+      "marketCode":6
+   },
+   {
+      "playersCode":213,
+      "playerMarketCode":"90",
+      "playerNameFull":"TITULO CV S.A.",
+      "playerName":"TITULO",
+      "marketCode":3
+   },
+   {
+      "playersCode":213,
+      "playerMarketCode":"90",
+      "playerNameFull":"TITULO CV S.A.",
+      "playerName":"TITULO",
+      "marketCode":1
+   },
+   {
+      "playersCode":13690,
+      "playerMarketCode":"4090",
+      "playerNameFull":"TORO",
+      "playerName":"TORO",
+      "marketCode":1
+   },
+   {
+      "playersCode":13690,
+      "playerMarketCode":"4090",
+      "playerNameFull":"TORO",
+      "playerName":"TORO",
+      "marketCode":6
+   },
+   {
+      "playersCode":13690,
+      "playerMarketCode":"4090",
+      "playerNameFull":"TORO",
+      "playerName":"TORO",
+      "marketCode":3
+   },
+   {
+      "playersCode":214,
+      "playerMarketCode":"82",
+      "playerNameFull":"TOV CCTVM LTDA.",
+      "playerName":"TOV",
+      "marketCode":1
+   },
+   {
+      "playersCode":214,
+      "playerMarketCode":"82",
+      "playerNameFull":"TOV CCTVM LTDA.",
+      "playerName":"TOV",
+      "marketCode":3
+   },
+   {
+      "playersCode":214,
+      "playerMarketCode":"82",
+      "playerNameFull":"TOV CCTVM LTDA.",
+      "playerName":"TOV",
+      "marketCode":6
+   },
+   {
+      "playersCode":195,
+      "playerMarketCode":"127",
+      "playerNameFull":"TULLETT PREBON BRASIL S.A. CVC",
+      "playerName":"TULLETT",
+      "marketCode":1
+   },
+   {
+      "playersCode":195,
+      "playerMarketCode":"127",
+      "playerNameFull":"TULLETT PREBON BRASIL S.A. CVC",
+      "playerName":"TULLETT",
+      "marketCode":6
+   },
+   {
+      "playersCode":195,
+      "playerMarketCode":"127",
+      "playerNameFull":"TULLETT PREBON BRASIL S.A. CVC",
+      "playerName":"TULLETT",
+      "marketCode":3
+   },
+   {
+      "playersCode":203,
+      "playerMarketCode":"8",
+      "playerNameFull":"UBS Brasil. CCTVM",
+      "playerName":"UBS",
+      "marketCode":3
+   },
+   {
+      "playersCode":203,
+      "playerMarketCode":"8",
+      "playerNameFull":"UBS Brasil. CCTVM",
+      "playerName":"UBS",
+      "marketCode":1
+   },
+   {
+      "playersCode":203,
+      "playerMarketCode":"8",
+      "playerNameFull":"UBS Brasil. CCTVM",
+      "playerName":"UBS",
+      "marketCode":6
+   },
+   {
+      "playersCode":185,
+      "playerMarketCode":"37",
+      "playerNameFull":"UM INVESTIMENTOS S.A. CTVM",
+      "playerName":"UM",
+      "marketCode":6
+   },
+   {
+      "playersCode":185,
+      "playerMarketCode":"37",
+      "playerNameFull":"UM INVESTIMENTOS S.A. CTVM",
+      "playerName":"UM",
+      "marketCode":1
+   },
+   {
+      "playersCode":185,
+      "playerMarketCode":"37",
+      "playerNameFull":"UM INVESTIMENTOS S.A. CTVM",
+      "playerName":"UM",
+      "marketCode":3
+   },
+   {
+      "playersCode":186,
+      "playerMarketCode":"228",
+      "playerNameFull":"UNIBANCO INVESTSHOP CVMC S.A.",
+      "playerName":"UNIBANCO",
+      "marketCode":1
+   },
+   {
+      "playersCode":186,
+      "playerMarketCode":"228",
+      "playerNameFull":"UNIBANCO INVESTSHOP CVMC S.A.",
+      "playerName":"UNIBANCO",
+      "marketCode":6
+   },
+   {
+      "playersCode":186,
+      "playerMarketCode":"66",
+      "playerNameFull":"UNIBANCO INVESTSHOP CVMC S.A.",
+      "playerName":"UNIBANCO",
+      "marketCode":3
+   },
+   {
+      "playersCode":187,
+      "playerMarketCode":"29",
+      "playerNameFull":"UNILETRA CCTVM LTDA.",
+      "playerName":"UNILETRA",
+      "marketCode":3
+   },
+   {
+      "playersCode":187,
+      "playerMarketCode":"29",
+      "playerNameFull":"UNILETRA CCTVM LTDA.",
+      "playerName":"UNILETRA",
+      "marketCode":6
+   },
+   {
+      "playersCode":187,
+      "playerMarketCode":"29",
+      "playerNameFull":"UNILETRA CCTVM LTDA.",
+      "playerName":"UNILETRA",
+      "marketCode":1
+   },
+   {
+      "playersCode":14974,
+      "playerMarketCode":"1855",
+      "playerNameFull":"VITREO",
+      "playerName":"VITREO",
+      "marketCode":3
+   },
+   {
+      "playersCode":14974,
+      "playerMarketCode":"1855",
+      "playerNameFull":"VITREO",
+      "playerName":"VITREO",
+      "marketCode":1
+   },
+   {
+      "playersCode":188,
+      "playerMarketCode":"21",
+      "playerNameFull":"VOTORANTIM CTVM LTDA",
+      "playerName":"VOTORANTIM",
+      "marketCode":3
+   },
+   {
+      "playersCode":188,
+      "playerMarketCode":"21",
+      "playerNameFull":"VOTORANTIM CTVM LTDA",
+      "playerName":"VOTORANTIM",
+      "marketCode":6
+   },
+   {
+      "playersCode":188,
+      "playerMarketCode":"21",
+      "playerNameFull":"VOTORANTIM CTVM LTDA",
+      "playerName":"VOTORANTIM",
+      "marketCode":1
+   },
+   {
+      "playersCode":189,
+      "playerMarketCode":"86",
+      "playerNameFull":"WALPIRES S.A. CCTVM",
+      "playerName":"WALPIRES",
+      "marketCode":3
+   },
+   {
+      "playersCode":189,
+      "playerMarketCode":"86",
+      "playerNameFull":"WALPIRES S.A. CCTVM",
+      "playerName":"WALPIRES",
+      "marketCode":1
+   },
+   {
+      "playersCode":189,
+      "playerMarketCode":"86",
+      "playerNameFull":"WALPIRES S.A. CCTVM",
+      "playerName":"WALPIRES",
+      "marketCode":6
+   },
+   {
+      "playersCode":166,
+      "playerMarketCode":"190",
+      "playerNameFull":"WARREN CVMC LTDA",
+      "playerName":"WARREN",
+      "marketCode":6
+   },
+   {
+      "playersCode":166,
+      "playerMarketCode":"190",
+      "playerNameFull":"WARREN CVMC LTDA",
+      "playerName":"WARREN",
+      "marketCode":3
+   },
+   {
+      "playersCode":166,
+      "playerMarketCode":"190",
+      "playerNameFull":"WARREN CVMC LTDA",
+      "playerName":"WARREN",
+      "marketCode":1
+   },
+   {
+      "playersCode":123,
+      "playerMarketCode":"3",
+      "playerNameFull":"XP INVESTIMENTOS CCTVM S.A",
+      "playerName":"XP",
+      "marketCode":1
+   },
+   {
+      "playersCode":123,
+      "playerMarketCode":"3",
+      "playerNameFull":"XP INVESTIMENTOS CCTVM S.A",
+      "playerName":"XP",
+      "marketCode":6
+   },
+   {
+      "playersCode":123,
+      "playerMarketCode":"3",
+      "playerNameFull":"XP INVESTIMENTOS CCTVM S.A",
+      "playerName":"XP",
+      "marketCode":3
+   },
+   {
+      "playersCode":6146,
+      "playerMarketCode":"1000",
+      "marketCode":3
+   },
+   {
+      "playersCode":16114,
+      "playerMarketCode":"2786",
+      "marketCode":1
+   },
+   {
+      "playersCode":15863,
+      "playerMarketCode":"251",
+      "marketCode":1
+   },
+   {
+      "playersCode":15070,
+      "playerMarketCode":"1089",
+      "marketCode":3
+   },
+   {
+      "playersCode":8509,
+      "playerMarketCode":"408",
+      "marketCode":1
+   },
+   {
+      "playersCode":16115,
+      "playerMarketCode":"1026",
+      "marketCode":1
+   },
+   {
+      "playersCode":16116,
+      "playerMarketCode":"833",
+      "marketCode":1
+   },
+   {
+      "playersCode":1979,
+      "playerMarketCode":"701",
+      "marketCode":3
+   },
+   {
+      "playersCode":16117,
+      "playerMarketCode":"206",
+      "marketCode":1
+   },
+   {
+      "playersCode":8225,
+      "playerMarketCode":"104",
+      "marketCode":1
+   },
+   {
+      "playersCode":999,
+      "playerMarketCode":"700",
+      "marketCode":3
+   },
+   {
+      "playersCode":8510,
+      "playerMarketCode":"407",
+      "marketCode":1
+   },
+   {
+      "playersCode":15849,
+      "playerMarketCode":"2659",
+      "marketCode":1
+   },
+   {
+      "playersCode":8535,
+      "playerMarketCode":"2028",
+      "marketCode":1
+   },
+   {
+      "playersCode":9000,
+      "playerMarketCode":"1570",
+      "marketCode":1
+   },
+   {
+      "playersCode":16118,
+      "playerMarketCode":"298",
+      "marketCode":1
+   },
+   {
+      "playersCode":13646,
+      "playerMarketCode":"100",
+      "marketCode":3
+   }
+]
