@@ -7,14 +7,15 @@ from prettytable import PrettyTable
 TIME_FORMAT = '%b %d, %Y %I:%M:%S %p%z'
 TIMEZONE_DIFF = '-0300'
 class Trade(object):
-    def __init__(self, json):
+    def __init__(self, symbol, json):
+        self.symbol = symbol
         self.qty = json["QT"]
         self.price = json["P"]
         self.time = int(datetime.strptime(json["T"] +TIMEZONE_DIFF ,TIME_FORMAT).timestamp())
         self.buyer = json["PCB"]
         self.seller = json["PCL"]
         self.agressor = json["CDA"]
-        self.hash = hash((self.qty, self.price, self.time, self.buyer, self.seller, self.agressor))
+        self.hash = hash((self.symbol, self.qty, self.price, self.time, self.buyer, self.seller, self.agressor))
 
     def __hash__(self):
         return self.hash
@@ -67,16 +68,16 @@ class QuoteTradeType:
                 if ("type" in jl) and (jl["type"] == "BusinessBookType"):
                     trades_json = jl['trades']
                     for trade_json in trades_json:
-                        trade = Trade(trade_json)
+                        trade = Trade(jl["symbol"], trade_json)
                         trade_from_dict = trades.get(trade.hash)
                         if trade_from_dict is None:
                             # new trade
                             trades[trade.hash] = trade
         with open(out_file, 'w', newline='') as file:
             writer = csv.writer(file, delimiter=';')
-            writer.writerow(['time','price','qty','buyer','seller' ,'agressor'])
+            writer.writerow(['symbol','time','price','qty','buyer','seller' ,'agressor'])
             for idx in trades:
-                writer.writerow([trades[idx].time,trades[idx].price,trades[idx].qty,trades[idx].buyer,trades[idx].seller ,trades[idx].agressor])
+                writer.writerow([trades[idx].symbol,trades[idx].time,trades[idx].price,trades[idx].qty,trades[idx].buyer,trades[idx].seller ,trades[idx].agressor])
 
 
 if __name__ == "__main__":
