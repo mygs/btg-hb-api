@@ -58,6 +58,31 @@ replace "?????" accordingly:
 |    Weighted Bid $    | 22.209 |
 |    Balance Bid %     | 0.492  |
 
+## Broker ranking example
+|    BROKER_ID|                     BROKER_NAME|         NET|      QTY|  AGRESSOR|
+|:-----------:|:------------------------------:|:----------:|:-------:|:--------:|
+|           8 |              UBS Brasil. CCTVM | 18747882.0 | 2765200 |     2301 |
+|           3 |     XP INVESTIMENTOS CCTVM S.A |-52130499.0 | 2330000 |     2925 |
+|          13 |        MERRILL LYNCH S.A. CTVM |-25250738.0 | 2119500 |      614 |
+|         120 |                  BRASIL PLURAL | -1282870.0 | 1462400 |     1454 |
+|        1618 |                          IDEAL |  9834157.0 | 1289700 |     1266 |
+|          45 | CREDIT SUISSE BRASIL S.A. CTVM | 91518926.0 | 1216700 |     4122 |
+|          85 |           BTG PACTUAL CTVM S.A | 41743156.0 | 1074500 |     1004 |
+|          40 | MORGAN STANLEY D. W. CTVM S.A. |-32823650.0 |  971200 |      859 |
+|          77 |                      CITIGROUP |-55768921.0 |  865100 |      693 |
+|          72 |             BRADESCO S.A. CTVM |-10668241.0 |  630900 |      634 |
+|         114 |                    ITAU CV S/A |-25425228.0 |  542300 |     1246 |
+|         308 |                CLEAR CTVM LTDA |  -121657.0 |  480100 |     1579 |
+|         386 |                  OCTO CTVM S/A | -3119380.0 |  384400 |      733 |
+|          39 |                AGORA CTVM S.A. | -1111680.0 |  269000 |      256 |
+|         238 |   GOLDMAN SACHS DO BRASIL CTVM |  6045594.0 |  191400 |      371 |
+|          27 |             SANTANDER S.A. CCT | -4072337.0 |  177200 |      106 |
+|         129 |                 PLANNER CV S.A | 15209280.0 |  177100 |      221 |
+|          23 |                         NECTON | 10825699.0 |  145800 |      187 |
+|          16 |         J. P. MORGAN CCVM S.A. |  -557135.0 |  134100 |      144 |
+|        1982 |                     MODAL DTVM |  1203867.0 |  127800 |      380 |
+
+
 
 ## Widgets for Limit Order Book statistics
 ![lob widget](img/jupyter_lob_analysis.png)
