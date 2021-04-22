@@ -24,7 +24,7 @@ class AggregatedBookAnalytics:
         self.weighted_price = 0
         self.middle_price = 0
         if book is not None:
-            self.symbol = book.symbol
+            self.symbol = book.symbol.upper()
             self.calc(book)
 
     def calc(self, book):
@@ -103,7 +103,7 @@ class AggregatedBookAnalytics:
                 for line in values_file:
                     jl = json.loads(line.replace("'", '"'))
                     if ("type" in jl) and (jl["type"] == "AggregatedBookAnalytics"):
-                        writer.writerow([jl['timestamp'],jl['symbol'],jl['spread'],
+                        writer.writerow([jl['timestamp'],jl['symbol'].upper(),jl['spread'],
                                         jl['book_imbalance'],jl['best_bid_price'],
                                         jl['best_ask_price'],jl['pressure_ask'],
                                         jl['pressure_bid'],jl['weighted_bid_price'],
