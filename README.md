@@ -102,3 +102,7 @@ replace "?????" accordingly:
 * [Thesis](https://tspace.library.utoronto.ca/bitstream/1807/70567/3/Rubisov_Anton_201511_MAS_thesis.pdf) - Statistical Arbitrage Using Limit Order Book Imbalance
 * [Paper](http://www.columbia.edu/~ww2040/orderbook.pdf) - A stochastic model for order book dynamics
 * [Article](https://towardsdatascience.com/four-ways-to-quantify-synchrony-between-time-series-data-b99136c4a9c9) - Four ways to quantify synchrony between time series data
+* [SGX-Full-OrderBook-Tick-Data-Trading-Strategy](https://github.com/rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy) - Modeling High-Frequency Limit Order Book Dynamics Using Machine Learning
+*[448Project](https://github.com/HujiaYuYoyo/448Project/blob/master/448_Final.pdf)- High Freq Price Movement Strategy
+* [LOB](https://people.maths.ox.ac.uk/porterm/papers/gould-qf-final.pdf)
+*[Herd behavior and aggregate fluctuations in financial markets](https://www.researchgate.net/publication/259695552_Herd_behavior_and_aggregate_fluctuations_in_financial_markets)-
