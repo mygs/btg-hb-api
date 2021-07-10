@@ -105,4 +105,6 @@ replace "?????" accordingly:
 * [SGX-Full-OrderBook-Tick-Data-Trading-Strategy](https://github.com/rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy) - Modeling High-Frequency Limit Order Book Dynamics Using Machine Learning
 *[448Project](https://github.com/HujiaYuYoyo/448Project/blob/master/448_Final.pdf)- High Freq Price Movement Strategy
 * [LOB](https://people.maths.ox.ac.uk/porterm/papers/gould-qf-final.pdf)
-*[Herd behavior and aggregate fluctuations in financial markets](https://www.researchgate.net/publication/259695552_Herd_behavior_and_aggregate_fluctuations_in_financial_markets)-
+*[Herd behavior and aggregate fluctuations in financial markets](https://www.researchgate.net/publication/259695552_Herd_behavior_and_aggregate_fluctuations_in_financial_markets)
+* [Top Python trading packages for 2021](https://medium.com/code-sprout/top-python-trading-packages-for-2021-f6165f2674a8)
+* [Automating Stock Investing Technical Analysis With Python](https://medium.com/fintechexplained/automating-stock-investing-technical-analysis-with-python-81c669e360b2)
