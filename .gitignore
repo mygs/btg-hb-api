@@ -1,6 +1,6 @@
 config.json
 hb_main.js
-*.csv
+wallet*.csv
 *tar.gz
 
 # Byte-compiled / optimized / DLL files
